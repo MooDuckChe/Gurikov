@@ -1,0 +1,54 @@
+C:\Users\Administrator\source\repos\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe.config
+C:\Users\Administrator\source\repos\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\source\repos\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Properties.Resources.resources
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\source\repos\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Form1.resources
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe.config
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.pdb
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.AssemblyReference.cache
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Properties.Resources.resources
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.GenerateResource.cache
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.CoreCompileInputs.cache
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.exe
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.pdb
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Info_Lab_2.resources
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.MainWindow.resources
+C:\Users\MooDuckChe\Desktop\Лабы\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.CalcLab2.resources
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe.config
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.CalcLab2.resources
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Info_Lab_2.resources
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.MainWindow.resources
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\Desktop\Моя\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\Desktop\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe.config
+C:\Users\Administrator\Desktop\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\Desktop\Лабораторная работа №2\bin\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.CalcLab2.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.ChooseLab.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Info_Lab_2.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.MainWindow.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.exe
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.pdb
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Info_Lab_3.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.CalcLab3.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.Info_Lab_4.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная_работа__2.CalcLab4.resources
+C:\Users\Administrator\Desktop\Лабораторная работа №2\bin\Debug\Dll.dll
+C:\Users\Administrator\Desktop\Лабораторная работа №2\bin\Debug\Dll.pdb
+C:\Users\Administrator\Desktop\Лабораторная работа №2\obj\Debug\Лабораторная работа №2.csproj.CopyComplete
