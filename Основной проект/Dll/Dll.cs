@@ -56,7 +56,7 @@ namespace Dll_lab
         {
             double delta = Lab3_Matrix(a1, a2, b1, b2);
             double delta_x = Lab3_Matrix(c1, c2, b1, b2);
-            double delta_y = Lab3_Matrix(a1, a2, c1, c2);
+            double delta_y = Lab3_Matrix(a1, a2, c1, c2);   
             Lab3_Res_X = delta_x / delta;
             Lab3_Res_Y = delta_y / delta;
         }
@@ -71,7 +71,7 @@ namespace Dll_lab
                 double exa = Math.Exp(x * a);
                 // Min
                 min = a;
-                if (min > exa)
+                if (min > exa) // Результат лени студента, и отсутствие синхронизации между версиями на пк и на ноутбуке
                     min = exa;
                 if (min > xa)
                     min = xa;
@@ -140,7 +140,7 @@ namespace Dll_lab
         }
         public static void Add_Row(double a, double d, DataGridView Lab6_Table_Values)
         {
-            Lab6_Table_Values.Rows.Add(a.ToString("F1"), d.ToString("F5"));
+            Lab6_Table_Values.Rows.Add(a.ToString("F2"), d.ToString("F5"));
         }
 
         public static void DataGridClear(DataGridView Lab6_Table_Values)

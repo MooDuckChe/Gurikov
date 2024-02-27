@@ -29,10 +29,7 @@ namespace Лабораторная_работа__2
             double c1 = Lab_dll.Input_user(Input_c1_lab3);
             double c2 = Lab_dll.Input_user(Input_c2_lab3); // Берем данные
 
-            double Lab3_Res_X = 0;
-            double Lab3_Res_Y = 0;
-
-            Lab_dll.Lab3_All_Out(a1, a1, b1, b2, c1, c2, out Lab3_Res_X, out Lab3_Res_Y);
+            Lab_dll.Lab3_All_Out(a1, a2, b1, b2, c1, c2, out double Lab3_Res_X, out double Lab3_Res_Y);
 
             Lab_dll.Out_info(lab3_result_x, Lab3_Res_X);
             Lab_dll.Out_info(lab3_result_y, Lab3_Res_Y);

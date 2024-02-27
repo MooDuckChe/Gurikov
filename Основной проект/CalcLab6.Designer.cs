@@ -126,7 +126,8 @@
             this.Input_x_lab6.Location = new System.Drawing.Point(205, 114);
             this.Input_x_lab6.Name = "Input_x_lab6";
             this.Input_x_lab6.Size = new System.Drawing.Size(100, 20);
-            this.Input_x_lab6.TabIndex = 1;
+            this.Input_x_lab6.TabIndex = 2;
+            this.Input_x_lab6.Text = "-0,09";
             this.Input_x_lab6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_x_lab6_KeyPress);
             // 
             // Input_y_lab6
@@ -135,7 +136,8 @@
             this.Input_y_lab6.Location = new System.Drawing.Point(205, 140);
             this.Input_y_lab6.Name = "Input_y_lab6";
             this.Input_y_lab6.Size = new System.Drawing.Size(100, 20);
-            this.Input_y_lab6.TabIndex = 2;
+            this.Input_y_lab6.TabIndex = 3;
+            this.Input_y_lab6.Text = "1";
             this.Input_y_lab6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_y_lab6_KeyPress);
             // 
             // Input_a_lab6
@@ -144,7 +146,8 @@
             this.Input_a_lab6.Location = new System.Drawing.Point(205, 88);
             this.Input_a_lab6.Name = "Input_a_lab6";
             this.Input_a_lab6.Size = new System.Drawing.Size(100, 20);
-            this.Input_a_lab6.TabIndex = 3;
+            this.Input_a_lab6.TabIndex = 1;
+            this.Input_a_lab6.Text = "1";
             this.Input_a_lab6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_a_lab6_KeyPress);
             // 
             // Text_Input_end_cycle_lab6
@@ -163,7 +166,8 @@
             this.Input_step_lab6.Location = new System.Drawing.Point(213, 214);
             this.Input_step_lab6.Name = "Input_step_lab6";
             this.Input_step_lab6.Size = new System.Drawing.Size(100, 20);
-            this.Input_step_lab6.TabIndex = 7;
+            this.Input_step_lab6.TabIndex = 4;
+            this.Input_step_lab6.Text = "1";
             this.Input_step_lab6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_step_lab6_KeyPress);
             // 
             // Input_end_cycle_lab6
@@ -172,7 +176,8 @@
             this.Input_end_cycle_lab6.Location = new System.Drawing.Point(213, 240);
             this.Input_end_cycle_lab6.Name = "Input_end_cycle_lab6";
             this.Input_end_cycle_lab6.Size = new System.Drawing.Size(100, 20);
-            this.Input_end_cycle_lab6.TabIndex = 8;
+            this.Input_end_cycle_lab6.TabIndex = 5;
+            this.Input_end_cycle_lab6.Text = "19";
             this.Input_end_cycle_lab6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_end_cycle_lab6_KeyPress);
             // 
             // make_result_lab6
@@ -181,7 +186,7 @@
             this.make_result_lab6.Location = new System.Drawing.Point(92, 278);
             this.make_result_lab6.Name = "make_result_lab6";
             this.make_result_lab6.Size = new System.Drawing.Size(225, 75);
-            this.make_result_lab6.TabIndex = 9;
+            this.make_result_lab6.TabIndex = 6;
             this.make_result_lab6.Text = "Рассчитать";
             this.make_result_lab6.UseVisualStyleBackColor = true;
             this.make_result_lab6.Click += new System.EventHandler(this.Make_result_lab6_Click);

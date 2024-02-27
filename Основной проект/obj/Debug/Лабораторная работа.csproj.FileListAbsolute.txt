@@ -93,3 +93,30 @@ C:\Users\MooDuckChe\Desktop\Основной проект\obj\Debug\Лабора
 C:\Users\MooDuckChe\Desktop\Основной проект\obj\Debug\Лабораторная работа.csproj.CopyComplete
 C:\Users\MooDuckChe\Desktop\Основной проект\obj\Debug\Лабораторная работа.exe
 C:\Users\MooDuckChe\Desktop\Основной проект\obj\Debug\Лабораторная работа.pdb
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.CalcLab2.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.CalcLab3.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.CalcLab4.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.CalcLab6.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.CalcLab8.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.ChooseLab.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.Info_Lab_2.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.Info_Lab_3.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.Info_Lab_4.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.Info_Lab_6.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.Info_Lab_8.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа__2.MainWindow.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.Properties.Resources.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.exe
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.pdb
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\Лабораторная работа.exe.config
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\Лабораторная работа.exe
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\Лабораторная работа.pdb
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\Dll.dll
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\bin\Debug\Dll.pdb
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная работа.csproj.CopyComplete
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab2.resources
+C:\Users\Administrator\Desktop\12.02.24\Основной проект\obj\Debug\Лабораторная_работа.Sem2_Info_Lab_2.resources

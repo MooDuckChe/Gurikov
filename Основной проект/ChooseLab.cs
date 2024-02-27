@@ -72,5 +72,16 @@ namespace Лабораторная_работа__2
 
             this.Close();
         }
+
+        private void Btn_goto_Sem2_Lab2_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            // Открытие третьей формы
+            var Sem2_Info_Lab_2 = new Sem2_Info_Lab_2();
+            Sem2_Info_Lab_2.ShowDialog();
+
+            this.Close();
+        }
     }
 }
