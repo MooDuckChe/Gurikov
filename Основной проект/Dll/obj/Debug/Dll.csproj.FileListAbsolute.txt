@@ -28,3 +28,9 @@ C:\Users\Administrator\Desktop\12.02.24\Основной проект\Dll\obj\De
 C:\Users\Administrator\Desktop\12.02.24\Основной проект\Dll\obj\Debug\Dll.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\12.02.24\Основной проект\Dll\obj\Debug\Dll.dll
 C:\Users\Administrator\Desktop\12.02.24\Основной проект\Dll\obj\Debug\Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\bin\Debug\Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\bin\Debug\Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\obj\Debug\Dll.csproj.AssemblyReference.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\obj\Debug\Dll.csproj.CoreCompileInputs.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\obj\Debug\Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\Dll\obj\Debug\Dll.pdb

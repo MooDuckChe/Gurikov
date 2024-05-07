@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лабораторная р
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll", "Dll\Dll.csproj", "{1BB111C7-592E-4CB3-829E-C6B2A02FF5E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Second_Semestr_Dll", "..\Second_Semestr_Dll\Second_Semestr_Dll.csproj", "{FB317D16-D84C-415D-800F-8EC5C3B307DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BB111C7-592E-4CB3-829E-C6B2A02FF5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BB111C7-592E-4CB3-829E-C6B2A02FF5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BB111C7-592E-4CB3-829E-C6B2A02FF5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB317D16-D84C-415D-800F-8EC5C3B307DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB317D16-D84C-415D-800F-8EC5C3B307DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB317D16-D84C-415D-800F-8EC5C3B307DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB317D16-D84C-415D-800F-8EC5C3B307DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

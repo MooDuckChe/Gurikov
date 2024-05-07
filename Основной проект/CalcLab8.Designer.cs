@@ -45,7 +45,7 @@
             // Lab8_exit
             // 
             this.Lab8_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Lab8_exit.Location = new System.Drawing.Point(490, 674);
+            this.Lab8_exit.Location = new System.Drawing.Point(490, 668);
             this.Lab8_exit.Name = "Lab8_exit";
             this.Lab8_exit.Size = new System.Drawing.Size(225, 75);
             this.Lab8_exit.TabIndex = 17;
@@ -57,7 +57,7 @@
             // 
             this.Text_Input_x_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_x_lab8.AutoSize = true;
-            this.Text_Input_x_lab8.Location = new System.Drawing.Point(113, 71);
+            this.Text_Input_x_lab8.Location = new System.Drawing.Point(113, 65);
             this.Text_Input_x_lab8.Name = "Text_Input_x_lab8";
             this.Text_Input_x_lab8.Size = new System.Drawing.Size(112, 13);
             this.Text_Input_x_lab8.TabIndex = 10;
@@ -67,7 +67,7 @@
             // 
             this.Text_Input_eps_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_eps_lab8.AutoSize = true;
-            this.Text_Input_eps_lab8.Location = new System.Drawing.Point(125, 97);
+            this.Text_Input_eps_lab8.Location = new System.Drawing.Point(125, 91);
             this.Text_Input_eps_lab8.Name = "Text_Input_eps_lab8";
             this.Text_Input_eps_lab8.Size = new System.Drawing.Size(100, 13);
             this.Text_Input_eps_lab8.TabIndex = 11;
@@ -77,7 +77,7 @@
             // 
             this.Text_Input_NMax_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_NMax_lab8.AutoSize = true;
-            this.Text_Input_NMax_lab8.Location = new System.Drawing.Point(113, 123);
+            this.Text_Input_NMax_lab8.Location = new System.Drawing.Point(113, 117);
             this.Text_Input_NMax_lab8.Name = "Text_Input_NMax_lab8";
             this.Text_Input_NMax_lab8.Size = new System.Drawing.Size(117, 13);
             this.Text_Input_NMax_lab8.TabIndex = 12;
@@ -86,7 +86,7 @@
             // Input_x_lab8
             // 
             this.Input_x_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_x_lab8.Location = new System.Drawing.Point(231, 68);
+            this.Input_x_lab8.Location = new System.Drawing.Point(231, 62);
             this.Input_x_lab8.Name = "Input_x_lab8";
             this.Input_x_lab8.Size = new System.Drawing.Size(100, 20);
             this.Input_x_lab8.TabIndex = 13;
@@ -96,7 +96,7 @@
             // Input_MaxIter_lab8
             // 
             this.Input_MaxIter_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_MaxIter_lab8.Location = new System.Drawing.Point(231, 120);
+            this.Input_MaxIter_lab8.Location = new System.Drawing.Point(231, 114);
             this.Input_MaxIter_lab8.Name = "Input_MaxIter_lab8";
             this.Input_MaxIter_lab8.Size = new System.Drawing.Size(100, 20);
             this.Input_MaxIter_lab8.TabIndex = 15;
@@ -106,7 +106,7 @@
             // Input_eps_lab8
             // 
             this.Input_eps_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_eps_lab8.Location = new System.Drawing.Point(231, 94);
+            this.Input_eps_lab8.Location = new System.Drawing.Point(231, 88);
             this.Input_eps_lab8.Name = "Input_eps_lab8";
             this.Input_eps_lab8.Size = new System.Drawing.Size(100, 20);
             this.Input_eps_lab8.TabIndex = 14;
@@ -120,7 +120,7 @@
             this.Lab8_dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iter,
             this.value_x});
-            this.Lab8_dataGridView.Location = new System.Drawing.Point(611, 12);
+            this.Lab8_dataGridView.Location = new System.Drawing.Point(611, 6);
             this.Lab8_dataGridView.Name = "Lab8_dataGridView";
             this.Lab8_dataGridView.Size = new System.Drawing.Size(561, 656);
             this.Lab8_dataGridView.TabIndex = 17;
@@ -141,7 +141,7 @@
             // Make_result_lab8
             // 
             this.Make_result_lab8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Make_result_lab8.Location = new System.Drawing.Point(128, 342);
+            this.Make_result_lab8.Location = new System.Drawing.Point(128, 336);
             this.Make_result_lab8.Name = "Make_result_lab8";
             this.Make_result_lab8.Size = new System.Drawing.Size(263, 90);
             this.Make_result_lab8.TabIndex = 16;
@@ -153,7 +153,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Make_result_lab8);
             this.Controls.Add(this.Lab8_dataGridView);
             this.Controls.Add(this.Input_eps_lab8);

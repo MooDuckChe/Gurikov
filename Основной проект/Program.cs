@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dll_lab;
+using Second_Semestr_Dll;
 
 namespace Лабораторная_работа__2
 {

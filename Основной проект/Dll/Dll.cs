@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Windows.Forms;
+using System.Linq;
+using Microsoft.VisualBasic;
+
 
 namespace Dll_lab
 {
@@ -92,7 +95,7 @@ namespace Dll_lab
                         d = (Math.Pow(Math.Cos(x), 2) + Math.Sin(Math.Pow(x, 2)) * x);
                     else
                         d = (Math.Pow(Math.Cos(x), 2) + Math.Sin(Math.Pow(x, 2)) * y);
-                }
+                } 
                 else
                 {
                     MessageBox.Show("Попали в ветку 3", "Проверка", MessageBoxButtons.OK);
@@ -196,5 +199,6 @@ namespace Dll_lab
             }
             while (Math.Abs(prev_x - temp) >= eps && k < MaxIter);
         }
+
     }
 }

@@ -50,7 +50,7 @@
             // 
             this.Text_Input_m_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_m_lab2.AutoSize = true;
-            this.Text_Input_m_lab2.Location = new System.Drawing.Point(485, 240);
+            this.Text_Input_m_lab2.Location = new System.Drawing.Point(485, 234);
             this.Text_Input_m_lab2.Name = "Text_Input_m_lab2";
             this.Text_Input_m_lab2.Size = new System.Drawing.Size(66, 13);
             this.Text_Input_m_lab2.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.Text_Input_c_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_c_lab2.AutoSize = true;
-            this.Text_Input_c_lab2.Location = new System.Drawing.Point(485, 266);
+            this.Text_Input_c_lab2.Location = new System.Drawing.Point(485, 260);
             this.Text_Input_c_lab2.Name = "Text_Input_c_lab2";
             this.Text_Input_c_lab2.Size = new System.Drawing.Size(64, 13);
             this.Text_Input_c_lab2.TabIndex = 1;
@@ -70,7 +70,7 @@
             // 
             this.Text_Input_x_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_x_lab2.AutoSize = true;
-            this.Text_Input_x_lab2.Location = new System.Drawing.Point(485, 292);
+            this.Text_Input_x_lab2.Location = new System.Drawing.Point(485, 286);
             this.Text_Input_x_lab2.Name = "Text_Input_x_lab2";
             this.Text_Input_x_lab2.Size = new System.Drawing.Size(60, 13);
             this.Text_Input_x_lab2.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.Text_Input_a_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_a_lab2.AutoSize = true;
-            this.Text_Input_a_lab2.Location = new System.Drawing.Point(485, 318);
+            this.Text_Input_a_lab2.Location = new System.Drawing.Point(485, 312);
             this.Text_Input_a_lab2.Name = "Text_Input_a_lab2";
             this.Text_Input_a_lab2.Size = new System.Drawing.Size(64, 13);
             this.Text_Input_a_lab2.TabIndex = 4;
@@ -89,7 +89,7 @@
             // Input_m_lab2
             // 
             this.Input_m_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_m_lab2.Location = new System.Drawing.Point(551, 237);
+            this.Input_m_lab2.Location = new System.Drawing.Point(551, 231);
             this.Input_m_lab2.Name = "Input_m_lab2";
             this.Input_m_lab2.Size = new System.Drawing.Size(200, 20);
             this.Input_m_lab2.TabIndex = 5;
@@ -98,7 +98,7 @@
             // Input_x_lab2
             // 
             this.Input_x_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_x_lab2.Location = new System.Drawing.Point(551, 289);
+            this.Input_x_lab2.Location = new System.Drawing.Point(551, 283);
             this.Input_x_lab2.Name = "Input_x_lab2";
             this.Input_x_lab2.Size = new System.Drawing.Size(200, 20);
             this.Input_x_lab2.TabIndex = 7;
@@ -107,7 +107,7 @@
             // Input_c_lab2
             // 
             this.Input_c_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_c_lab2.Location = new System.Drawing.Point(551, 263);
+            this.Input_c_lab2.Location = new System.Drawing.Point(551, 257);
             this.Input_c_lab2.Name = "Input_c_lab2";
             this.Input_c_lab2.Size = new System.Drawing.Size(200, 20);
             this.Input_c_lab2.TabIndex = 6;
@@ -116,7 +116,7 @@
             // Input_a_lab2
             // 
             this.Input_a_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_a_lab2.Location = new System.Drawing.Point(551, 315);
+            this.Input_a_lab2.Location = new System.Drawing.Point(551, 309);
             this.Input_a_lab2.Name = "Input_a_lab2";
             this.Input_a_lab2.Size = new System.Drawing.Size(200, 20);
             this.Input_a_lab2.TabIndex = 8;
@@ -125,7 +125,7 @@
             // Input_b_lab2
             // 
             this.Input_b_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_b_lab2.Location = new System.Drawing.Point(551, 341);
+            this.Input_b_lab2.Location = new System.Drawing.Point(551, 335);
             this.Input_b_lab2.Name = "Input_b_lab2";
             this.Input_b_lab2.Size = new System.Drawing.Size(200, 20);
             this.Input_b_lab2.TabIndex = 9;
@@ -134,7 +134,7 @@
             // make_result_lab2
             // 
             this.make_result_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.make_result_lab2.Location = new System.Drawing.Point(488, 379);
+            this.make_result_lab2.Location = new System.Drawing.Point(488, 373);
             this.make_result_lab2.Name = "make_result_lab2";
             this.make_result_lab2.Size = new System.Drawing.Size(263, 30);
             this.make_result_lab2.TabIndex = 10;
@@ -146,7 +146,7 @@
             // 
             this.Text_res_z_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_res_z_lab2.AutoSize = true;
-            this.Text_res_z_lab2.Location = new System.Drawing.Point(485, 443);
+            this.Text_res_z_lab2.Location = new System.Drawing.Point(485, 437);
             this.Text_res_z_lab2.Name = "Text_res_z_lab2";
             this.Text_res_z_lab2.Size = new System.Drawing.Size(141, 13);
             this.Text_res_z_lab2.TabIndex = 11;
@@ -156,7 +156,7 @@
             // 
             this.Text_res_s_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_res_s_lab2.AutoSize = true;
-            this.Text_res_s_lab2.Location = new System.Drawing.Point(485, 469);
+            this.Text_res_s_lab2.Location = new System.Drawing.Point(485, 463);
             this.Text_res_s_lab2.Name = "Text_res_s_lab2";
             this.Text_res_s_lab2.Size = new System.Drawing.Size(144, 13);
             this.Text_res_s_lab2.TabIndex = 13;
@@ -165,7 +165,7 @@
             // lab2_result_z
             // 
             this.lab2_result_z.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lab2_result_z.Location = new System.Drawing.Point(632, 443);
+            this.lab2_result_z.Location = new System.Drawing.Point(632, 437);
             this.lab2_result_z.Name = "lab2_result_z";
             this.lab2_result_z.ReadOnly = true;
             this.lab2_result_z.Size = new System.Drawing.Size(220, 20);
@@ -174,7 +174,7 @@
             // lab2_result_s
             // 
             this.lab2_result_s.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lab2_result_s.Location = new System.Drawing.Point(632, 469);
+            this.lab2_result_s.Location = new System.Drawing.Point(632, 463);
             this.lab2_result_s.Name = "lab2_result_s";
             this.lab2_result_s.ReadOnly = true;
             this.lab2_result_s.Size = new System.Drawing.Size(220, 20);
@@ -183,7 +183,7 @@
             // Lab2_exit
             // 
             this.Lab2_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Lab2_exit.Location = new System.Drawing.Point(488, 675);
+            this.Lab2_exit.Location = new System.Drawing.Point(488, 669);
             this.Lab2_exit.Name = "Lab2_exit";
             this.Lab2_exit.Size = new System.Drawing.Size(225, 75);
             this.Lab2_exit.TabIndex = 16;
@@ -195,7 +195,7 @@
             // 
             this.Text_Input_b_lab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_b_lab2.AutoSize = true;
-            this.Text_Input_b_lab2.Location = new System.Drawing.Point(485, 344);
+            this.Text_Input_b_lab2.Location = new System.Drawing.Point(485, 338);
             this.Text_Input_b_lab2.Name = "Text_Input_b_lab2";
             this.Text_Input_b_lab2.Size = new System.Drawing.Size(61, 13);
             this.Text_Input_b_lab2.TabIndex = 3;
@@ -205,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Lab2_exit);
             this.Controls.Add(this.lab2_result_s);
             this.Controls.Add(this.lab2_result_z);

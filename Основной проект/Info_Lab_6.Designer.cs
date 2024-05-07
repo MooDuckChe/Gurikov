@@ -39,7 +39,7 @@
             // Btn_goto_calcLab6
             // 
             this.Btn_goto_calcLab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_goto_calcLab6.Location = new System.Drawing.Point(479, 668);
+            this.Btn_goto_calcLab6.Location = new System.Drawing.Point(479, 662);
             this.Btn_goto_calcLab6.Name = "Btn_goto_calcLab6";
             this.Btn_goto_calcLab6.Size = new System.Drawing.Size(225, 75);
             this.Btn_goto_calcLab6.TabIndex = 7;
@@ -51,7 +51,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(310, 243);
+            this.pictureBox1.Location = new System.Drawing.Point(310, 237);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(555, 144);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -63,7 +63,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(66, 173);
+            this.label1.Location = new System.Drawing.Point(66, 167);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1075, 312);
             this.label1.TabIndex = 9;
@@ -77,7 +77,7 @@
             this.NameLab3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NameLab3.AutoSize = true;
             this.NameLab3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameLab3.Location = new System.Drawing.Point(460, 9);
+            this.NameLab3.Location = new System.Drawing.Point(460, 3);
             this.NameLab3.Name = "NameLab3";
             this.NameLab3.Size = new System.Drawing.Size(279, 63);
             this.NameLab3.TabIndex = 10;
@@ -88,7 +88,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.NameLab3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);

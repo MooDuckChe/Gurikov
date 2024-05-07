@@ -34,7 +34,7 @@
             // Btn_goto_Sem_CalcLab2
             // 
             this.Btn_goto_Sem_CalcLab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_goto_Sem_CalcLab2.Location = new System.Drawing.Point(488, 675);
+            this.Btn_goto_Sem_CalcLab2.Location = new System.Drawing.Point(479, 662);
             this.Btn_goto_Sem_CalcLab2.Name = "Btn_goto_Sem_CalcLab2";
             this.Btn_goto_Sem_CalcLab2.Size = new System.Drawing.Size(225, 75);
             this.Btn_goto_Sem_CalcLab2.TabIndex = 10;
@@ -46,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Btn_goto_Sem_CalcLab2);
             this.Name = "Sem2_Info_Lab_2";
             this.Text = "Sem2_Info_Lab_2";

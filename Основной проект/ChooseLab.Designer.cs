@@ -36,6 +36,7 @@
             this.First_Year = new System.Windows.Forms.GroupBox();
             this.Second_Year = new System.Windows.Forms.GroupBox();
             this.Btn_goto_Sem2_Lab2 = new System.Windows.Forms.Button();
+            this.Btn_goto_Sem2_Lab3 = new System.Windows.Forms.Button();
             this.First_Year.SuspendLayout();
             this.Second_Year.SuspendLayout();
             this.SuspendLayout();
@@ -108,7 +109,7 @@
             this.First_Year.Controls.Add(this.Btn_goto_lab8);
             this.First_Year.Controls.Add(this.Btn_goto_lab4);
             this.First_Year.Controls.Add(this.Btn_goto_lab6);
-            this.First_Year.Location = new System.Drawing.Point(12, 75);
+            this.First_Year.Location = new System.Drawing.Point(12, 69);
             this.First_Year.Name = "First_Year";
             this.First_Year.Size = new System.Drawing.Size(479, 316);
             this.First_Year.TabIndex = 8;
@@ -118,8 +119,9 @@
             // Second_Year
             // 
             this.Second_Year.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Second_Year.Controls.Add(this.Btn_goto_Sem2_Lab3);
             this.Second_Year.Controls.Add(this.Btn_goto_Sem2_Lab2);
-            this.Second_Year.Location = new System.Drawing.Point(538, 75);
+            this.Second_Year.Location = new System.Drawing.Point(538, 69);
             this.Second_Year.Name = "Second_Year";
             this.Second_Year.Size = new System.Drawing.Size(609, 316);
             this.Second_Year.TabIndex = 9;
@@ -138,11 +140,23 @@
             this.Btn_goto_Sem2_Lab2.UseVisualStyleBackColor = true;
             this.Btn_goto_Sem2_Lab2.Click += new System.EventHandler(this.Btn_goto_Sem2_Lab2_Click);
             // 
+            // Btn_goto_Sem2_Lab3
+            // 
+            this.Btn_goto_Sem2_Lab3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Btn_goto_Sem2_Lab3.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.Btn_goto_Sem2_Lab3.Location = new System.Drawing.Point(237, 19);
+            this.Btn_goto_Sem2_Lab3.Name = "Btn_goto_Sem2_Lab3";
+            this.Btn_goto_Sem2_Lab3.Size = new System.Drawing.Size(225, 75);
+            this.Btn_goto_Sem2_Lab3.TabIndex = 2;
+            this.Btn_goto_Sem2_Lab3.Text = "Лабораторная работа №3";
+            this.Btn_goto_Sem2_Lab3.UseVisualStyleBackColor = true;
+            this.Btn_goto_Sem2_Lab3.Click += new System.EventHandler(this.Btn_goto_Sem2_Lab3_Click);
+            // 
             // ChooseLab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Second_Year);
             this.Controls.Add(this.First_Year);
             this.Name = "ChooseLab";
@@ -164,5 +178,6 @@
         private System.Windows.Forms.GroupBox First_Year;
         private System.Windows.Forms.GroupBox Second_Year;
         private System.Windows.Forms.Button Btn_goto_Sem2_Lab2;
+        private System.Windows.Forms.Button Btn_goto_Sem2_Lab3;
     }
 }
