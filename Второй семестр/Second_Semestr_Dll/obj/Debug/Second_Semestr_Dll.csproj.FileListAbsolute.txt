@@ -1,0 +1,18 @@
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\bin\Debug\Second_Semestr_Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\bin\Debug\Second_Semestr_Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\bin\Debug\Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\bin\Debug\Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.AssemblyReference.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.CoreCompileInputs.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.CopyComplete
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\bin\Debug\Second_Semestr_Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\bin\Debug\Second_Semestr_Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\bin\Debug\Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\bin\Debug\Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.AssemblyReference.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.CoreCompileInputs.cache
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_S.23B20FD4.Up2Date
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.dll
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.pdb
