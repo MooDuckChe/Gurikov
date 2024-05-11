@@ -1,6 +1,6 @@
 ﻿namespace Лабораторная_работа
 {
-    partial class Sem2_CalcLab2
+    partial class Sem2_CalcLab4d
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Sem2_Lab2_exit = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // Sem2_Lab2_exit
+            // checkBox1
             // 
-            this.Sem2_Lab2_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab2_exit.Location = new System.Drawing.Point(488, 669);
-            this.Sem2_Lab2_exit.Name = "Sem2_Lab2_exit";
-            this.Sem2_Lab2_exit.Size = new System.Drawing.Size(225, 75);
-            this.Sem2_Lab2_exit.TabIndex = 18;
-            this.Sem2_Lab2_exit.Text = "Выход";
-            this.Sem2_Lab2_exit.UseVisualStyleBackColor = true;
-            this.Sem2_Lab2_exit.Click += new System.EventHandler(this.Sem2_Lab2_exit_Click);
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(377, 177);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // Sem2_CalcLab2
+            // Sem2_CalcLab4d
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 749);
-            this.Controls.Add(this.Sem2_Lab2_exit);
-            this.Name = "Sem2_CalcLab2";
-            this.Text = "Sem2_CalcLab2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBox1);
+            this.Name = "Sem2_CalcLab4d";
+            this.Text = "Sem2_CalcLab4d";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Sem2_Lab2_exit;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

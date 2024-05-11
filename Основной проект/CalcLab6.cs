@@ -68,5 +68,10 @@ namespace Лабораторная_работа
         {
             Lab_dll.Input_lab3_KeyPress(e, Input_end_cycle_lab6.Text);
         }
+
+        private void Lab6_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

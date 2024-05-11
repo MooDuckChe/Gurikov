@@ -43,7 +43,7 @@
             // Input_a_lab4
             // 
             this.Input_a_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_a_lab4.Location = new System.Drawing.Point(567, 321);
+            this.Input_a_lab4.Location = new System.Drawing.Point(567, 315);
             this.Input_a_lab4.Name = "Input_a_lab4";
             this.Input_a_lab4.Size = new System.Drawing.Size(100, 20);
             this.Input_a_lab4.TabIndex = 0;
@@ -52,7 +52,7 @@
             // Input_x_lab4
             // 
             this.Input_x_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_x_lab4.Location = new System.Drawing.Point(566, 347);
+            this.Input_x_lab4.Location = new System.Drawing.Point(566, 341);
             this.Input_x_lab4.Name = "Input_x_lab4";
             this.Input_x_lab4.Size = new System.Drawing.Size(100, 20);
             this.Input_x_lab4.TabIndex = 1;
@@ -61,7 +61,7 @@
             // Input_y_lab4
             // 
             this.Input_y_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_y_lab4.Location = new System.Drawing.Point(566, 373);
+            this.Input_y_lab4.Location = new System.Drawing.Point(566, 367);
             this.Input_y_lab4.Name = "Input_y_lab4";
             this.Input_y_lab4.Size = new System.Drawing.Size(100, 20);
             this.Input_y_lab4.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             this.Text_Input_a_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_a_lab4.AutoSize = true;
-            this.Text_Input_a_lab4.Location = new System.Drawing.Point(500, 324);
+            this.Text_Input_a_lab4.Location = new System.Drawing.Point(500, 318);
             this.Text_Input_a_lab4.Name = "Text_Input_a_lab4";
             this.Text_Input_a_lab4.Size = new System.Drawing.Size(61, 13);
             this.Text_Input_a_lab4.TabIndex = 3;
@@ -81,7 +81,7 @@
             // 
             this.Text_Input_x_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_x_lab4.AutoSize = true;
-            this.Text_Input_x_lab4.Location = new System.Drawing.Point(500, 350);
+            this.Text_Input_x_lab4.Location = new System.Drawing.Point(500, 344);
             this.Text_Input_x_lab4.Name = "Text_Input_x_lab4";
             this.Text_Input_x_lab4.Size = new System.Drawing.Size(60, 13);
             this.Text_Input_x_lab4.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             this.Text_Input_y_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_y_lab4.AutoSize = true;
-            this.Text_Input_y_lab4.Location = new System.Drawing.Point(500, 376);
+            this.Text_Input_y_lab4.Location = new System.Drawing.Point(500, 370);
             this.Text_Input_y_lab4.Name = "Text_Input_y_lab4";
             this.Text_Input_y_lab4.Size = new System.Drawing.Size(60, 13);
             this.Text_Input_y_lab4.TabIndex = 5;
@@ -101,7 +101,7 @@
             // 
             this.Text_res_d_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_res_d_lab4.AutoSize = true;
-            this.Text_res_d_lab4.Location = new System.Drawing.Point(430, 534);
+            this.Text_res_d_lab4.Location = new System.Drawing.Point(430, 528);
             this.Text_res_d_lab4.Name = "Text_res_d_lab4";
             this.Text_res_d_lab4.Size = new System.Drawing.Size(67, 13);
             this.Text_res_d_lab4.TabIndex = 6;
@@ -110,7 +110,7 @@
             // lab4_result_d
             // 
             this.lab4_result_d.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lab4_result_d.Location = new System.Drawing.Point(503, 531);
+            this.lab4_result_d.Location = new System.Drawing.Point(503, 525);
             this.lab4_result_d.Name = "lab4_result_d";
             this.lab4_result_d.ReadOnly = true;
             this.lab4_result_d.Size = new System.Drawing.Size(220, 20);
@@ -119,7 +119,7 @@
             // Lab4_exit
             // 
             this.Lab4_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Lab4_exit.Location = new System.Drawing.Point(484, 674);
+            this.Lab4_exit.Location = new System.Drawing.Point(484, 668);
             this.Lab4_exit.Name = "Lab4_exit";
             this.Lab4_exit.Size = new System.Drawing.Size(225, 75);
             this.Lab4_exit.TabIndex = 8;
@@ -130,7 +130,7 @@
             // make_result_lab4
             // 
             this.make_result_lab4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.make_result_lab4.Location = new System.Drawing.Point(460, 443);
+            this.make_result_lab4.Location = new System.Drawing.Point(460, 437);
             this.make_result_lab4.Name = "make_result_lab4";
             this.make_result_lab4.Size = new System.Drawing.Size(263, 30);
             this.make_result_lab4.TabIndex = 9;
@@ -142,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.make_result_lab4);
             this.Controls.Add(this.Lab4_exit);
             this.Controls.Add(this.lab4_result_d);

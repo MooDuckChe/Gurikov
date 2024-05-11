@@ -151,3 +151,10 @@ C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Ла
 C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная работа.pdb
 C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\bin\Debug\Second_Semestr_Dll.dll
 C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\bin\Debug\Second_Semestr_Dll.pdb
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_Info_Lab_4.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4b.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4c.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4d.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4e.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4_first_question_page.resources
+C:\Users\MooDuckChe\Desktop\Gurikov\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4a.resources

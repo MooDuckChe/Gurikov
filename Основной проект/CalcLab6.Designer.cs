@@ -46,6 +46,7 @@
             this.Output_result_average_under_zero_lab6 = new System.Windows.Forms.TextBox();
             this.Text_Output_min_lab6 = new System.Windows.Forms.Label();
             this.Text_Output_average_under_zero_lab6 = new System.Windows.Forms.Label();
+            this.Lab6_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Lab6_Table_Values)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             this.Lab6_Table_Values.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.X,
             this.d});
-            this.Lab6_Table_Values.Location = new System.Drawing.Point(610, 25);
+            this.Lab6_Table_Values.Location = new System.Drawing.Point(610, 19);
             this.Lab6_Table_Values.Name = "Lab6_Table_Values";
             this.Lab6_Table_Values.ReadOnly = true;
             this.Lab6_Table_Values.ShowEditingIcon = false;
@@ -84,7 +85,7 @@
             // 
             this.Text_Input_x_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_x_lab6.AutoSize = true;
-            this.Text_Input_x_lab6.Location = new System.Drawing.Point(89, 117);
+            this.Text_Input_x_lab6.Location = new System.Drawing.Point(89, 111);
             this.Text_Input_x_lab6.Name = "Text_Input_x_lab6";
             this.Text_Input_x_lab6.Size = new System.Drawing.Size(110, 13);
             this.Text_Input_x_lab6.TabIndex = 1;
@@ -94,7 +95,7 @@
             // 
             this.Text_Input_a_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_a_lab6.AutoSize = true;
-            this.Text_Input_a_lab6.Location = new System.Drawing.Point(88, 91);
+            this.Text_Input_a_lab6.Location = new System.Drawing.Point(88, 85);
             this.Text_Input_a_lab6.Name = "Text_Input_a_lab6";
             this.Text_Input_a_lab6.Size = new System.Drawing.Size(111, 13);
             this.Text_Input_a_lab6.TabIndex = 2;
@@ -104,7 +105,7 @@
             // 
             this.Text_Input_y_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_y_lab6.AutoSize = true;
-            this.Text_Input_y_lab6.Location = new System.Drawing.Point(89, 143);
+            this.Text_Input_y_lab6.Location = new System.Drawing.Point(89, 137);
             this.Text_Input_y_lab6.Name = "Text_Input_y_lab6";
             this.Text_Input_y_lab6.Size = new System.Drawing.Size(110, 13);
             this.Text_Input_y_lab6.TabIndex = 3;
@@ -114,7 +115,7 @@
             // 
             this.Text_Input_step_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_step_lab6.AutoSize = true;
-            this.Text_Input_step_lab6.Location = new System.Drawing.Point(89, 217);
+            this.Text_Input_step_lab6.Location = new System.Drawing.Point(89, 211);
             this.Text_Input_step_lab6.Name = "Text_Input_step_lab6";
             this.Text_Input_step_lab6.Size = new System.Drawing.Size(107, 13);
             this.Text_Input_step_lab6.TabIndex = 5;
@@ -123,7 +124,7 @@
             // Input_x_lab6
             // 
             this.Input_x_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_x_lab6.Location = new System.Drawing.Point(205, 114);
+            this.Input_x_lab6.Location = new System.Drawing.Point(205, 108);
             this.Input_x_lab6.Name = "Input_x_lab6";
             this.Input_x_lab6.Size = new System.Drawing.Size(100, 20);
             this.Input_x_lab6.TabIndex = 2;
@@ -133,7 +134,7 @@
             // Input_y_lab6
             // 
             this.Input_y_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_y_lab6.Location = new System.Drawing.Point(205, 140);
+            this.Input_y_lab6.Location = new System.Drawing.Point(205, 134);
             this.Input_y_lab6.Name = "Input_y_lab6";
             this.Input_y_lab6.Size = new System.Drawing.Size(100, 20);
             this.Input_y_lab6.TabIndex = 3;
@@ -143,7 +144,7 @@
             // Input_a_lab6
             // 
             this.Input_a_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_a_lab6.Location = new System.Drawing.Point(205, 88);
+            this.Input_a_lab6.Location = new System.Drawing.Point(205, 82);
             this.Input_a_lab6.Name = "Input_a_lab6";
             this.Input_a_lab6.Size = new System.Drawing.Size(100, 20);
             this.Input_a_lab6.TabIndex = 1;
@@ -154,7 +155,7 @@
             // 
             this.Text_Input_end_cycle_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Input_end_cycle_lab6.AutoSize = true;
-            this.Text_Input_end_cycle_lab6.Location = new System.Drawing.Point(89, 243);
+            this.Text_Input_end_cycle_lab6.Location = new System.Drawing.Point(89, 237);
             this.Text_Input_end_cycle_lab6.Name = "Text_Input_end_cycle_lab6";
             this.Text_Input_end_cycle_lab6.Size = new System.Drawing.Size(118, 13);
             this.Text_Input_end_cycle_lab6.TabIndex = 6;
@@ -163,7 +164,7 @@
             // Input_step_lab6
             // 
             this.Input_step_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_step_lab6.Location = new System.Drawing.Point(213, 214);
+            this.Input_step_lab6.Location = new System.Drawing.Point(213, 208);
             this.Input_step_lab6.Name = "Input_step_lab6";
             this.Input_step_lab6.Size = new System.Drawing.Size(100, 20);
             this.Input_step_lab6.TabIndex = 4;
@@ -173,7 +174,7 @@
             // Input_end_cycle_lab6
             // 
             this.Input_end_cycle_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Input_end_cycle_lab6.Location = new System.Drawing.Point(213, 240);
+            this.Input_end_cycle_lab6.Location = new System.Drawing.Point(213, 234);
             this.Input_end_cycle_lab6.Name = "Input_end_cycle_lab6";
             this.Input_end_cycle_lab6.Size = new System.Drawing.Size(100, 20);
             this.Input_end_cycle_lab6.TabIndex = 5;
@@ -183,7 +184,7 @@
             // make_result_lab6
             // 
             this.make_result_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.make_result_lab6.Location = new System.Drawing.Point(92, 278);
+            this.make_result_lab6.Location = new System.Drawing.Point(92, 272);
             this.make_result_lab6.Name = "make_result_lab6";
             this.make_result_lab6.Size = new System.Drawing.Size(225, 75);
             this.make_result_lab6.TabIndex = 6;
@@ -194,7 +195,7 @@
             // Output_result_min_lab6
             // 
             this.Output_result_min_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Output_result_min_lab6.Location = new System.Drawing.Point(228, 406);
+            this.Output_result_min_lab6.Location = new System.Drawing.Point(228, 400);
             this.Output_result_min_lab6.Name = "Output_result_min_lab6";
             this.Output_result_min_lab6.ReadOnly = true;
             this.Output_result_min_lab6.Size = new System.Drawing.Size(200, 20);
@@ -203,7 +204,7 @@
             // Output_result_average_under_zero_lab6
             // 
             this.Output_result_average_under_zero_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Output_result_average_under_zero_lab6.Location = new System.Drawing.Point(369, 435);
+            this.Output_result_average_under_zero_lab6.Location = new System.Drawing.Point(369, 429);
             this.Output_result_average_under_zero_lab6.Name = "Output_result_average_under_zero_lab6";
             this.Output_result_average_under_zero_lab6.ReadOnly = true;
             this.Output_result_average_under_zero_lab6.Size = new System.Drawing.Size(200, 20);
@@ -213,7 +214,7 @@
             // 
             this.Text_Output_min_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Output_min_lab6.AutoSize = true;
-            this.Text_Output_min_lab6.Location = new System.Drawing.Point(91, 409);
+            this.Text_Output_min_lab6.Location = new System.Drawing.Point(91, 403);
             this.Text_Output_min_lab6.Name = "Text_Output_min_lab6";
             this.Text_Output_min_lab6.Size = new System.Drawing.Size(131, 13);
             this.Text_Output_min_lab6.TabIndex = 12;
@@ -223,17 +224,29 @@
             // 
             this.Text_Output_average_under_zero_lab6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Text_Output_average_under_zero_lab6.AutoSize = true;
-            this.Text_Output_average_under_zero_lab6.Location = new System.Drawing.Point(91, 438);
+            this.Text_Output_average_under_zero_lab6.Location = new System.Drawing.Point(91, 432);
             this.Text_Output_average_under_zero_lab6.Name = "Text_Output_average_under_zero_lab6";
             this.Text_Output_average_under_zero_lab6.Size = new System.Drawing.Size(272, 13);
             this.Text_Output_average_under_zero_lab6.TabIndex = 13;
             this.Text_Output_average_under_zero_lab6.Text = "Среднее арифметическое отрацательных значений:\r\n";
             // 
+            // Lab6_exit
+            // 
+            this.Lab6_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Lab6_exit.Location = new System.Drawing.Point(179, 662);
+            this.Lab6_exit.Name = "Lab6_exit";
+            this.Lab6_exit.Size = new System.Drawing.Size(225, 75);
+            this.Lab6_exit.TabIndex = 14;
+            this.Lab6_exit.Text = "Выход";
+            this.Lab6_exit.UseVisualStyleBackColor = true;
+            this.Lab6_exit.Click += new System.EventHandler(this.Lab6_exit_Click);
+            // 
             // CalcLab6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
+            this.Controls.Add(this.Lab6_exit);
             this.Controls.Add(this.Text_Output_average_under_zero_lab6);
             this.Controls.Add(this.Text_Output_min_lab6);
             this.Controls.Add(this.Output_result_average_under_zero_lab6);
@@ -279,5 +292,6 @@
         private System.Windows.Forms.Label Text_Output_average_under_zero_lab6;
         private System.Windows.Forms.DataGridViewTextBoxColumn X;
         private System.Windows.Forms.DataGridViewTextBoxColumn d;
+        private System.Windows.Forms.Button Lab6_exit;
     }
 }

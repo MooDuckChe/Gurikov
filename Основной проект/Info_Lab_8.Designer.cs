@@ -37,7 +37,7 @@
             // Btn_goto_calcLab8
             // 
             this.Btn_goto_calcLab8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_goto_calcLab8.Location = new System.Drawing.Point(479, 668);
+            this.Btn_goto_calcLab8.Location = new System.Drawing.Point(479, 662);
             this.Btn_goto_calcLab8.Name = "Btn_goto_calcLab8";
             this.Btn_goto_calcLab8.Size = new System.Drawing.Size(225, 75);
             this.Btn_goto_calcLab8.TabIndex = 8;
@@ -50,7 +50,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(387, 9);
+            this.label1.Location = new System.Drawing.Point(387, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(381, 50);
             this.label1.TabIndex = 9;
@@ -61,7 +61,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::Лабораторная_работа.Properties.Resources.Lab8_info;
-            this.pictureBox1.Location = new System.Drawing.Point(99, 238);
+            this.pictureBox1.Location = new System.Drawing.Point(99, 232);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1007, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -72,7 +72,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Btn_goto_calcLab8);

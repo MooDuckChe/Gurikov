@@ -45,7 +45,7 @@
             // Lab8_exit
             // 
             this.Lab8_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Lab8_exit.Location = new System.Drawing.Point(490, 668);
+            this.Lab8_exit.Location = new System.Drawing.Point(146, 662);
             this.Lab8_exit.Name = "Lab8_exit";
             this.Lab8_exit.Size = new System.Drawing.Size(225, 75);
             this.Lab8_exit.TabIndex = 17;

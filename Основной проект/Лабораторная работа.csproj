@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Answer_base.cs" />
     <Compile Include="CalcLab2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +143,42 @@
     <Compile Include="Sem2_CalcLab3.Designer.cs">
       <DependentUpon>Sem2_CalcLab3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sem2_CalcLab4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4b.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4a.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4c.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4d.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4d.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4d.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4e.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_CalcLab4e.Designer.cs">
+      <DependentUpon>Sem2_CalcLab4e.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sem2_Info_Lab_2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +190,12 @@
     </Compile>
     <Compile Include="Sem2_Info_Lab_3.Designer.cs">
       <DependentUpon>Sem2_Info_Lab_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sem2_Info_Lab_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sem2_Info_Lab_4.Designer.cs">
+      <DependentUpon>Sem2_Info_Lab_4.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CalcLab2.resx">
       <DependentUpon>CalcLab2.cs</DependentUpon>
@@ -206,11 +249,32 @@
     <EmbeddedResource Include="Sem2_CalcLab3.resx">
       <DependentUpon>Sem2_CalcLab3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4.resx">
+      <DependentUpon>Sem2_CalcLab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4b.resx">
+      <DependentUpon>Sem2_CalcLab4b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4a.resx">
+      <DependentUpon>Sem2_CalcLab4a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4c.resx">
+      <DependentUpon>Sem2_CalcLab4c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4d.resx">
+      <DependentUpon>Sem2_CalcLab4d.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_CalcLab4e.resx">
+      <DependentUpon>Sem2_CalcLab4e.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sem2_Info_Lab_2.resx">
       <DependentUpon>Sem2_Info_Lab_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sem2_Info_Lab_3.resx">
       <DependentUpon>Sem2_Info_Lab_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sem2_Info_Lab_4.resx">
+      <DependentUpon>Sem2_Info_Lab_4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

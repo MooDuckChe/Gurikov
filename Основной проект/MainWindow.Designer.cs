@@ -43,7 +43,7 @@ namespace Лабораторная_работа__2
             this.Info_High_Institution.AutoSize = true;
             this.Info_High_Institution.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Info_High_Institution.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Info_High_Institution.Location = new System.Drawing.Point(59, 10);
+            this.Info_High_Institution.Location = new System.Drawing.Point(59, 4);
             this.Info_High_Institution.Margin = new System.Windows.Forms.Padding(0);
             this.Info_High_Institution.Name = "Info_High_Institution";
             this.Info_High_Institution.Size = new System.Drawing.Size(1083, 210);
@@ -56,7 +56,7 @@ namespace Лабораторная_работа__2
             this.Info_My.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Info_My.AutoSize = true;
             this.Info_My.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Info_My.Location = new System.Drawing.Point(815, 515);
+            this.Info_My.Location = new System.Drawing.Point(815, 509);
             this.Info_My.Margin = new System.Windows.Forms.Padding(0);
             this.Info_My.Name = "Info_My";
             this.Info_My.Size = new System.Drawing.Size(360, 84);
@@ -70,7 +70,7 @@ namespace Лабораторная_работа__2
             this.MainWindowButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.MainWindowButton.AutoSize = true;
             this.MainWindowButton.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.MainWindowButton.Location = new System.Drawing.Point(488, 675);
+            this.MainWindowButton.Location = new System.Drawing.Point(488, 669);
             this.MainWindowButton.Name = "MainWindowButton";
             this.MainWindowButton.Size = new System.Drawing.Size(225, 75);
             this.MainWindowButton.TabIndex = 2;
@@ -82,7 +82,7 @@ namespace Лабораторная_работа__2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.MainWindowButton);
             this.Controls.Add(this.Info_My);
             this.Controls.Add(this.Info_High_Institution);

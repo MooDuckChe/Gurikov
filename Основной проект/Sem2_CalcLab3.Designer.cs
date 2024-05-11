@@ -34,6 +34,7 @@
             this.Sem2_Lab3_Save_Txt = new System.Windows.Forms.Button();
             this.Sem2_Lab3_Save_Excel = new System.Windows.Forms.Button();
             this.Sem2_Lab3_Save_Word = new System.Windows.Forms.Button();
+            this.Sem2_Lab3_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Lab2_Sem3_Main_DGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Lab2_Sem3_Resh_DGV)).BeginInit();
             this.SuspendLayout();
@@ -118,11 +119,23 @@
             this.Sem2_Lab3_Save_Word.UseVisualStyleBackColor = true;
             this.Sem2_Lab3_Save_Word.Click += new System.EventHandler(this.Sem2_Lab3_Save_Word_Click);
             // 
+            // Sem2_Lab3_exit
+            // 
+            this.Sem2_Lab3_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab3_exit.Location = new System.Drawing.Point(488, 669);
+            this.Sem2_Lab3_exit.Name = "Sem2_Lab3_exit";
+            this.Sem2_Lab3_exit.Size = new System.Drawing.Size(225, 75);
+            this.Sem2_Lab3_exit.TabIndex = 18;
+            this.Sem2_Lab3_exit.Text = "Выход";
+            this.Sem2_Lab3_exit.UseVisualStyleBackColor = true;
+            this.Sem2_Lab3_exit.Click += new System.EventHandler(this.Sem2_Lab3_exit_Click);
+            // 
             // Sem2_CalcLab3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 749);
+            this.Controls.Add(this.Sem2_Lab3_exit);
             this.Controls.Add(this.Sem2_Lab3_Save_Word);
             this.Controls.Add(this.Sem2_Lab3_Save_Excel);
             this.Controls.Add(this.Sem2_Lab3_Save_Txt);
@@ -146,5 +159,6 @@
         private System.Windows.Forms.Button Sem2_Lab3_Save_Txt;
         private System.Windows.Forms.Button Sem2_Lab3_Save_Excel;
         private System.Windows.Forms.Button Sem2_Lab3_Save_Word;
+        private System.Windows.Forms.Button Sem2_Lab3_exit;
     }
 }

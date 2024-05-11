@@ -17,6 +17,7 @@ using Microsoft.Office.Interop.Excel;
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
 using System.Diagnostics;
+using Microsoft.Office.Interop.Word;
 
 
 namespace Лабораторная_работа
@@ -132,6 +133,33 @@ namespace Лабораторная_работа
             }
             excel.Visible = true;
             excel.UserControl = true;
+        }
+
+        private static void ZapisWord(int[,] mas, int[] rezmas, int n, int m, int g)
+        {
+            Microsoft.Office.Interop.Word.Application app = new Microsoft.Office.Interop.Word.Application();
+            var inf = Type.Missing;
+            string str;
+            var Doc = app.Documents.Add(inf, inf, inf, inf);
+            app.Selection.TypeText("Исходный массив");
+            object t1 = WdDefaultTableBehavior.wdWord9TableBehavior;
+            object t2 = WdAutoFitBehavior.wdAutoFitContent;
+            Microsoft.Office.Interop.Word.Table tbl = app.ActiveDocument.Tables.Add(app.Selection.Range, n + 1, m + 1, t1, t2);
+            tbl.Cell(1, 1).Range.InsertAfter($"[{n}][{m}]");
+            for (int i = 0; i < n; i++)
+                tbl.Cell(i + 2, 1).Range.InsertAfter("[" + Convert.ToString(i) + "]");
+            for (int j = 0; j < m; j++)
+                tbl.Cell(1, j + 2).Range.InsertAfter("[" + Convert.ToString(j) + "]");
+            for (int i = 0; i < n; i++)
+                for (int j = 0; j < m; j++)
+                {
+                    str = string.Format("{0}", mas[i, j]);
+                    tbl.Cell(i + 2, j + 2).Range.InsertAfter(str);
+                }
+        }
+        private void Sem2_Lab3_exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

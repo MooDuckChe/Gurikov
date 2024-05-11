@@ -41,7 +41,7 @@
             this.InfoLab2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.InfoLab2.AutoSize = true;
             this.InfoLab2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.InfoLab2.Location = new System.Drawing.Point(261, 25);
+            this.InfoLab2.Location = new System.Drawing.Point(261, 19);
             this.InfoLab2.Name = "InfoLab2";
             this.InfoLab2.Size = new System.Drawing.Size(707, 42);
             this.InfoLab2.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(265, 502);
+            this.pictureBox1.Location = new System.Drawing.Point(265, 496);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(703, 167);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -63,7 +63,7 @@
             // Btn_goto_calcLab2
             // 
             this.Btn_goto_calcLab2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Btn_goto_calcLab2.Location = new System.Drawing.Point(488, 675);
+            this.Btn_goto_calcLab2.Location = new System.Drawing.Point(488, 669);
             this.Btn_goto_calcLab2.Name = "Btn_goto_calcLab2";
             this.Btn_goto_calcLab2.Size = new System.Drawing.Size(225, 75);
             this.Btn_goto_calcLab2.TabIndex = 2;
@@ -76,7 +76,7 @@
             this.Lab2_Info.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Lab2_Info.AutoSize = true;
             this.Lab2_Info.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Lab2_Info.Location = new System.Drawing.Point(59, 120);
+            this.Lab2_Info.Location = new System.Drawing.Point(59, 114);
             this.Lab2_Info.Name = "Lab2_Info";
             this.Lab2_Info.Size = new System.Drawing.Size(1085, 96);
             this.Lab2_Info.TabIndex = 3;
@@ -87,7 +87,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Lab2_Info);
             this.Controls.Add(this.Btn_goto_calcLab2);
             this.Controls.Add(this.pictureBox1);

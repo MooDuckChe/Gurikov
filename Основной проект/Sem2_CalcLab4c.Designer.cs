@@ -1,6 +1,6 @@
 ﻿namespace Лабораторная_работа
 {
-    partial class Sem2_CalcLab2
+    partial class Sem2_CalcLab4c
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Sem2_Lab2_exit = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // Sem2_Lab2_exit
+            // listBox1
             // 
-            this.Sem2_Lab2_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab2_exit.Location = new System.Drawing.Point(488, 669);
-            this.Sem2_Lab2_exit.Name = "Sem2_Lab2_exit";
-            this.Sem2_Lab2_exit.Size = new System.Drawing.Size(225, 75);
-            this.Sem2_Lab2_exit.TabIndex = 18;
-            this.Sem2_Lab2_exit.Text = "Выход";
-            this.Sem2_Lab2_exit.UseVisualStyleBackColor = true;
-            this.Sem2_Lab2_exit.Click += new System.EventHandler(this.Sem2_Lab2_exit_Click);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(361, 147);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 95);
+            this.listBox1.TabIndex = 0;
             // 
-            // Sem2_CalcLab2
+            // Sem2_CalcLab4c
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 749);
-            this.Controls.Add(this.Sem2_Lab2_exit);
-            this.Name = "Sem2_CalcLab2";
-            this.Text = "Sem2_CalcLab2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBox1);
+            this.Name = "Sem2_CalcLab4c";
+            this.Text = "Sem2_CalcLab4c";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button Sem2_Lab2_exit;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

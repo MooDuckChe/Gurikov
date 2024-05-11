@@ -55,7 +55,6 @@ namespace Лабораторная_работа__2
         {
             this.Visible = false;
 
-            // Открытие третьей формы
             var Info_Lab_6 = new Info_Lab_6();
             Info_Lab_6.ShowDialog();
 
@@ -66,7 +65,6 @@ namespace Лабораторная_работа__2
         {
             this.Visible = false;
 
-            // Открытие третьей формы
             var Info_Lab_8 = new Info_Lab_8();
             Info_Lab_8.ShowDialog();
 
@@ -77,7 +75,6 @@ namespace Лабораторная_работа__2
         {
             this.Visible = false;
 
-            // Открытие третьей формы
             var Sem2_Info_Lab_2 = new Sem2_Info_Lab_2();
             Sem2_Info_Lab_2.ShowDialog();
 
@@ -88,9 +85,18 @@ namespace Лабораторная_работа__2
         {
             this.Visible = false;
 
-            // Открытие третьей формы
             var Sem2_Info_Lab_3 = new Sem2_Info_Lab_3();
             Sem2_Info_Lab_3.ShowDialog();
+
+            this.Close();
+        }
+
+        private void Btn_goto_Sem2_Lab4_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+
+            var Sem2_Info_Lab_4 = new Sem2_Info_Lab_4();
+            Sem2_Info_Lab_4.ShowDialog();
 
             this.Close();
         }

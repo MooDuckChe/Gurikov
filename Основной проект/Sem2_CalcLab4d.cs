@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Лабораторная_работа
 {
-    public partial class Sem2_CalcLab2 : Form
+    public partial class Sem2_CalcLab4d : Form
     {
-        public Sem2_CalcLab2()
+        public Sem2_CalcLab4d()
         {
             InitializeComponent();
-        }
-
-        private void Sem2_Lab2_exit_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

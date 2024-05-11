@@ -23,12 +23,11 @@ namespace Лабораторная_работа__2
 
             // Открытие второй формы
             var ChooseLab = new ChooseLab();
-            ChooseLab.ShowDialog();
+            //ChooseLab.ShowDialog();
+            ChooseLab.Show();
             //var Info_Lab_2 = new Info_Lab_2();
-            //Info_Lab_2.ShowDialog();
-
             //Возвращение главной формы
-            this.Visible = true;
+            this.Close();
         }
 
         private void MainWindow_Load(object sender, EventArgs e)
