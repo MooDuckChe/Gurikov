@@ -31,7 +31,7 @@
             this.Sem2_Lab5_exit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Sem2_Lab5_calc_button = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -78,15 +78,16 @@
             this.label2.TabIndex = 21;
             this.label2.Text = "Массив заполненый по условию задачи";
             // 
-            // button1
+            // Sem2_Lab5_calc_button
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(458, 495);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 75);
-            this.button1.TabIndex = 24;
-            this.button1.Text = "Результат";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Sem2_Lab5_calc_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab5_calc_button.Location = new System.Drawing.Point(466, 495);
+            this.Sem2_Lab5_calc_button.Name = "Sem2_Lab5_calc_button";
+            this.Sem2_Lab5_calc_button.Size = new System.Drawing.Size(225, 75);
+            this.Sem2_Lab5_calc_button.TabIndex = 24;
+            this.Sem2_Lab5_calc_button.Text = "Результат";
+            this.Sem2_Lab5_calc_button.UseVisualStyleBackColor = true;
+            this.Sem2_Lab5_calc_button.Click += new System.EventHandler(this.Sem2_Lab5_calc_button_Click);
             // 
             // button2
             // 
@@ -188,7 +189,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Sem2_Lab5_calc_button);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Sem2_Lab5_exit);
@@ -207,7 +208,7 @@
         private System.Windows.Forms.Button Sem2_Lab5_exit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Sem2_Lab5_calc_button;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;

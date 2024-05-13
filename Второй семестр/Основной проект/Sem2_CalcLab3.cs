@@ -35,13 +35,13 @@ namespace Лабораторная_работа
             
             Lab2_Sem3_Main_DGV.ColumnCount = 0;
 
-            string length_text = Interaction.InputBox("Введите количество элементов массива для генерации", "Заголовок окна", "0", -1, -1); // Количество
+            string length_text = Interaction.InputBox("Введите количество элементов массива для генерации", "Размер массива", "15"); // Количество
             int length = Convert.ToInt32(length_text);
 
-            string min_text = Interaction.InputBox("Нижняя граница генерации", "Заголовок окна", "0", -1, -1);
+            string min_text = Interaction.InputBox("Нижняя граница генерации", "Минимальное значение", "-20");
             int min = Convert.ToInt32(min_text);
             
-            string max_text = Interaction.InputBox("Верхняя граница генерации", "Заголовок окна", "0", -1, -1);
+            string max_text = Interaction.InputBox("Верхняя граница генерации", "Максимальное значение", "40");
             int max = Convert.ToInt32(max_text);
 
             int[] mas = new int[length];

@@ -51,7 +51,8 @@ namespace Second_Semestr_Dll
             k = 0;
             for (int i = 0; i < mas.Length; i++)
             {
-                if (mas[i] % 2 == 0 && mas[i] > result)
+                //if (mas[i] % 2 == 0 && mas[i] > result) Не понял правильно задание?
+                if (mas[i] > result)
                 {
                     output[k] = mas[i];
                     k++;
