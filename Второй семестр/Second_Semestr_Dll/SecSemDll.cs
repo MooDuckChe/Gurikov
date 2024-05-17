@@ -98,7 +98,7 @@ namespace Second_Semestr_Dll
                 Table.Rows[i].Cells[i].Selected = true;
         }
 
-        // Пробел
+        // Пробел 
         public static void Sem2_Lab5_Replace_Nums_Space(int count_nums, int length, int[,] main, DataGridView Table)
         {
             (int i, int j)[] coords = new (int i, int j)[count_nums];
