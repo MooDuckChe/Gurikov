@@ -30,10 +30,8 @@ namespace Second_Semestr_Dll
             // Вывести четные числа которые больше геометрического
             int index = 0;
             for (int i = 0; i < mas.Length; i++)
-            {
                 if (mas[i] > result)
                     index++;
-            }
 
             output = new int[index];
             k = 0;
@@ -48,20 +46,26 @@ namespace Second_Semestr_Dll
             }
 
         }
-        public static void Sem2_Lab5_Fill_Array(int[,] mas, int length, int min, int max)
+        public static void Sem2_Lab5_Fill_Array_RND_Num(int[,] mas, int length, int min, int max)
         {
             Random rnd = new Random();
             for (int i = 0; i < length; i++)
                 for (int j = 0; j < length; j++)
                     mas[i,j] = rnd.Next(min, max);
         }
-        public static void Sem2_Lab5_Output_DGV(int[,] mas, int length, DataGridView Table)
+        public static void Sem2_Lab5_Enter_Mas_in_DGV(int[,] mas, int length, DataGridView Table)
         {
-            length+=1;
+            for (int i = 1; i < length; i++)
+                for (int j = 1; j < length; j++)
+                    Table.Rows[i].Cells[j].Value = mas[i-1, j-1];
+        }
+        public static void Sem2_Lab5_Fill_corner_DGV(int length, DataGridView Table)
+        {
+            length += 1;
             Table.ColumnCount = length;
             Table.RowCount = length;
 
-            Table.Rows[0].Cells[0].Value = $"[{length-1}][{length-1}]";
+            Table.Rows[0].Cells[0].Value = $"[{length - 1}][{length - 1}]";
 
             for (int i = 1; i < length; i++)
                 Table.Rows[0].Cells[i].Value = $"[{i - 1}]";
@@ -69,47 +73,50 @@ namespace Second_Semestr_Dll
             for (int i = 1; i < length; i++)
                 Table.Rows[i].Cells[0].Value = $"[{i - 1}]";
 
-            for (int i = 1; i < length; i++)
-                for (int j = 1; j < length; j++)
-                    Table.Rows[i].Cells[j].Value = mas[i-1, j-1];
+            // Заполнить 0
+            // Заполнить пустым местом
+            // Сделать меньше DGV
+
+            //(int x, int y) myPair = (1, 2);
+            //Table.Rows[0].Cells[1].Value = myPair.x;
+            //Table.Rows[0].Cells[1].Value = myPair.y;
         }
-        public static void Sem2_Lab5_Calculate(int[,] main, int length, out int count_div_3)
+
+        public static void Sem2_Lab5_Count_Condition(int[,] main, int length, out int count_condition)
         {
-            int k = 0;
-            count_div_3 = 0;
-            for(int i = 0 + k; i < length; i++)
-            {
-                for (int j = 0 + k; j < length; j++)
-                    if (main[i, j] % 3 == 0 && i != 0)
-                        count_div_3++;
-                k++;
-            }
+            count_condition = 0;
+            for(int i = 0; i < length; i++)
+                for (int j = 0 + i; j < length; j++)
+                    if (main[i,j] % 3 == 0 && i != j && i != 0)
+                        count_condition++;
+        }
+
+
+        public static void SelectMainDiagonal(DataGridView Table, int length)
+        {
+            for (int i = 1; i < length+1; i++)
+                Table.Rows[i].Cells[i].Selected = true;
         }
 
         // Пробел
-        public static void Sem2_Lab5_Replace_Num_Var1(int count_nums, int length, int[,] main, DataGridView Table)
+        public static void Sem2_Lab5_Replace_Nums_Space(int count_nums, int length, int[,] main, DataGridView Table)
         {
             (int i, int j)[] coords = new (int i, int j)[count_nums];
+            
             int count_coords = 0;
-            int k = 0;
-            for (int i = 0 + k; i < length; i++)
-            {
-                for (int j = 0 + k; j < length; j++)
-                    if (main[i, j] % 3 == 0 && i != 0)
+            for (int i = 0; i < length; i++)
+                for (int j = 0 + i; j < length; j++)
+                    if (main[i, j] % 3 == 0 && i != j && i != 0)
                         coords[count_coords++] = (i, j);
-                k++;
-            }
-
-            Sem2_Lab5_Output_DGV(main, length, Table);
-
-            MessageBox.Show("1");
 
             for (int i = 0; i < count_coords; i++)
                 Table.Rows[coords[i].i].Cells[coords[i].j].Value = " ";
+            
+            SelectMainDiagonal(Table, length);
         }
 
         // Замена на 0
-        public static void Sem2_Lab5_Replace_Num_Var2(int count_nums, int length, int[,] main, DataGridView Table, int[,] DGV_TWIN_ARRAY)
+        public static void Sem2_Lab5_Replace_Nums_Zero(int count_nums, int length, int[,] main, DataGridView Table, int[,] DGV_TWIN_ARRAY)
         {
             (int i, int j)[] coords = new (int i, int j)[count_nums];
             int count_coords = 0;
@@ -125,14 +132,26 @@ namespace Second_Semestr_Dll
             for (int i = 0; i < count_coords; i++)
                 DGV_TWIN_ARRAY[coords[i].i, coords[i].j] = 0;
 
-            Sem2_Lab5_Output_DGV(DGV_TWIN_ARRAY, length, Table);
+            Sem2_Lab5_Enter_Mas_in_DGV(DGV_TWIN_ARRAY, length, Table);
         }
-
+        
         // Сокращение DGV
-        public static void Sem2_Lab5_Replace_Num_Var3(int count_nums, int length, int[,] main, DataGridView Table)
+        public static void Sem2_Lab5_Reduction_DGV(int count_nums, int length, int[,] main, DataGridView Table)
         {
+            //int k = 1; // ?????
+            //count_condition = 0;
+            //for (int i = 0 + k; i < length; i++)
+            //{
+            //    for (int j = 0 + k; j < length; j++)
+            //        if (main[i, j] % 3 == 0 && i != 0)
+            //            count_condition++;
+            //    k++;
+            //}
+
             int all_legth = length * length;
             int dgv_count = 0;
+            
+            
             int[] small_dgv = new int[all_legth];
 
             for(int i = 0; i < length; i++)
@@ -142,73 +161,39 @@ namespace Second_Semestr_Dll
                         small_dgv[dgv_count] = main[i, j];
                         dgv_count += 1;
                     }
+
             // Ошибка берет числа ниже диагонали 
-
-            length += 1;
-            Table.ColumnCount = length;
-            Table.RowCount = length;
-
-            Table.Rows[0].Cells[0].Value = $"[{length - 1}][{length - 1}]";
-
-            for (int i = 1; i < length; i++)
-                Table.Rows[0].Cells[i].Value = $"[{i - 1}]";
-
-            for (int i = 1; i < length; i++)
-                Table.Rows[i].Cells[0].Value = $"[{i - 1}]";
-
             
             int limit = (int)Math.Sqrt(dgv_count);
             int when_stop = (int)Math.Pow(limit, 2);
 
+
+            // Берем числа заменяем на ------------
+
+            // координаты не нужных цифр
             for (int i = 1; i < limit; i++)
             {
                 for (int j = 1; j < limit; j++)
                     Table.Rows[i].Cells[j].Value = small_dgv[dgv_count--];
             }
 
-            MessageBox.Show("test");
-            //if (all_legth != when_stop)
-            //{
-            //    for (int i = 0; i < all_legth - when_stop; i++)
-            //    {
-            //        Table.Rows[limit].Cells[i].Value = small_dgv[dgv_count--];
-            //    }
-            //}
+            if (all_legth != when_stop)
+            {
+                for (int i = 0; i < all_legth - when_stop; i++)
+                {
+                    Table.Rows[limit].Cells[i].Value = small_dgv[dgv_count--];
+                }
+            }
 
             //for (int j = 1; j < Math.Sqrt(dgv_count); j++)
             //    Table.Rows[i].Cells[j].Value = small_dgv[i - 1, j - 1]; if (kounter >= limit)
             //kounter = 0;
 
         }
-        public static void Sem2_Lab5_Fill_DGV_with_Array_Filter(int[,] mas, int length, DataGridView Table)
+        
+        public static void Sem2_Lab5_Replace_New_Num()
         {
-            length += 1;
-            Table.ColumnCount = length;
-            Table.RowCount = length;
 
-            //Tuple<int, int> myPair = new Tuple<int, int>(1, 2);
-
-            (int x, int y) myPair = (1, 2);
-
-
-            Table.Rows[0].Cells[0].Value = $"[{length - 1}][{length - 1}]";
-
-            for (int i = 1; i < length; i++)
-            {
-                myPair = (i, i+2);
-                Table.Rows[0].Cells[i].Value = $"[{i - 1}]";
-            }
-
-            for (int i = 1; i < length; i++)
-                Table.Rows[i].Cells[0].Value = $"[{i - 1}]";
-            
-
-
-            // Заполнить 0
-            // Заполнить пустым местом
-            // Сделать меньше DGV
-            Table.Rows[0].Cells[1].Value = myPair.x;
-            Table.Rows[0].Cells[1].Value = myPair.y;
         }
     }
 }

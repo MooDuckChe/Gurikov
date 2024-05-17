@@ -50,7 +50,7 @@
             this.Lab2_Sem3_Main_DGV.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.Lab2_Sem3_Main_DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Lab2_Sem3_Main_DGV.ColumnHeadersVisible = false;
-            this.Lab2_Sem3_Main_DGV.Location = new System.Drawing.Point(51, 108);
+            this.Lab2_Sem3_Main_DGV.Location = new System.Drawing.Point(51, 102);
             this.Lab2_Sem3_Main_DGV.Name = "Lab2_Sem3_Main_DGV";
             this.Lab2_Sem3_Main_DGV.ReadOnly = true;
             this.Lab2_Sem3_Main_DGV.RowHeadersVisible = false;
@@ -60,7 +60,7 @@
             // Make_result_Sem2_lab3
             // 
             this.Make_result_Sem2_lab3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Make_result_Sem2_lab3.Location = new System.Drawing.Point(58, 348);
+            this.Make_result_Sem2_lab3.Location = new System.Drawing.Point(58, 342);
             this.Make_result_Sem2_lab3.Name = "Make_result_Sem2_lab3";
             this.Make_result_Sem2_lab3.Size = new System.Drawing.Size(225, 75);
             this.Make_result_Sem2_lab3.TabIndex = 3;
@@ -79,7 +79,7 @@
             this.Lab2_Sem3_Resh_DGV.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.Lab2_Sem3_Resh_DGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Lab2_Sem3_Resh_DGV.ColumnHeadersVisible = false;
-            this.Lab2_Sem3_Resh_DGV.Location = new System.Drawing.Point(51, 216);
+            this.Lab2_Sem3_Resh_DGV.Location = new System.Drawing.Point(51, 210);
             this.Lab2_Sem3_Resh_DGV.Name = "Lab2_Sem3_Resh_DGV";
             this.Lab2_Sem3_Resh_DGV.ReadOnly = true;
             this.Lab2_Sem3_Resh_DGV.RowHeadersVisible = false;
@@ -89,7 +89,7 @@
             // Sem2_Lab3_Save_Txt
             // 
             this.Sem2_Lab3_Save_Txt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab3_Save_Txt.Location = new System.Drawing.Point(336, 348);
+            this.Sem2_Lab3_Save_Txt.Location = new System.Drawing.Point(336, 342);
             this.Sem2_Lab3_Save_Txt.Name = "Sem2_Lab3_Save_Txt";
             this.Sem2_Lab3_Save_Txt.Size = new System.Drawing.Size(225, 75);
             this.Sem2_Lab3_Save_Txt.TabIndex = 5;
@@ -100,7 +100,7 @@
             // Sem2_Lab3_Save_Excel
             // 
             this.Sem2_Lab3_Save_Excel.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab3_Save_Excel.Location = new System.Drawing.Point(618, 348);
+            this.Sem2_Lab3_Save_Excel.Location = new System.Drawing.Point(618, 342);
             this.Sem2_Lab3_Save_Excel.Name = "Sem2_Lab3_Save_Excel";
             this.Sem2_Lab3_Save_Excel.Size = new System.Drawing.Size(225, 75);
             this.Sem2_Lab3_Save_Excel.TabIndex = 6;
@@ -111,7 +111,7 @@
             // Sem2_Lab3_Save_Word
             // 
             this.Sem2_Lab3_Save_Word.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab3_Save_Word.Location = new System.Drawing.Point(899, 348);
+            this.Sem2_Lab3_Save_Word.Location = new System.Drawing.Point(899, 342);
             this.Sem2_Lab3_Save_Word.Name = "Sem2_Lab3_Save_Word";
             this.Sem2_Lab3_Save_Word.Size = new System.Drawing.Size(225, 75);
             this.Sem2_Lab3_Save_Word.TabIndex = 7;
@@ -122,7 +122,7 @@
             // Sem2_Lab3_exit
             // 
             this.Sem2_Lab3_exit.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab3_exit.Location = new System.Drawing.Point(488, 675);
+            this.Sem2_Lab3_exit.Location = new System.Drawing.Point(488, 669);
             this.Sem2_Lab3_exit.Name = "Sem2_Lab3_exit";
             this.Sem2_Lab3_exit.Size = new System.Drawing.Size(225, 75);
             this.Sem2_Lab3_exit.TabIndex = 18;
@@ -134,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.Sem2_Lab3_exit);
             this.Controls.Add(this.Sem2_Lab3_Save_Word);
             this.Controls.Add(this.Sem2_Lab3_Save_Excel);
