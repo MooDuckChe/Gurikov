@@ -196,4 +196,5 @@ C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4.resources
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab5.resources
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лабораторная_работа.Sem2_Info_Lab_5.resources
-C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лабораторная работа.csproj.CopyComplete
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лаборато.F3EA9367.Up2Date
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Основной проект\obj\Debug\Лабораторная_работа.Sem2_CalcLab4result.resources

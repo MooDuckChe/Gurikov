@@ -28,23 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button Sem2_Lab4_first_question_button_answer;
+            this.Sem2_Lab4_first_question_button_answer = new System.Windows.Forms.Button();
             this.Sem2_Lab4_first_question_button_exit = new System.Windows.Forms.Button();
             this.Sem2_Lab4_first_question_button_choose_answer = new System.Windows.Forms.ComboBox();
             this.Sem2_Lab4_first_question_text = new System.Windows.Forms.Label();
-            Sem2_Lab4_first_question_button_answer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Sem2_Lab4_first_question_button_answer
             // 
-            Sem2_Lab4_first_question_button_answer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            Sem2_Lab4_first_question_button_answer.Location = new System.Drawing.Point(488, 458);
-            Sem2_Lab4_first_question_button_answer.Name = "Sem2_Lab4_first_question_button_answer";
-            Sem2_Lab4_first_question_button_answer.Size = new System.Drawing.Size(225, 47);
-            Sem2_Lab4_first_question_button_answer.TabIndex = 26;
-            Sem2_Lab4_first_question_button_answer.Text = "Ответ";
-            Sem2_Lab4_first_question_button_answer.UseVisualStyleBackColor = true;
-            Sem2_Lab4_first_question_button_answer.Click += new System.EventHandler(this.Sem2_Lab4_fIrst_question_button_answer_Click);
+            this.Sem2_Lab4_first_question_button_answer.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab4_first_question_button_answer.Location = new System.Drawing.Point(488, 451);
+            this.Sem2_Lab4_first_question_button_answer.Name = "Sem2_Lab4_first_question_button_answer";
+            this.Sem2_Lab4_first_question_button_answer.Size = new System.Drawing.Size(225, 47);
+            this.Sem2_Lab4_first_question_button_answer.TabIndex = 26;
+            this.Sem2_Lab4_first_question_button_answer.Text = "Ответ";
+            this.Sem2_Lab4_first_question_button_answer.UseVisualStyleBackColor = true;
+            this.Sem2_Lab4_first_question_button_answer.Click += new System.EventHandler(this.Sem2_Lab4_fIrst_question_button_answer_Click);
             // 
             // Sem2_Lab4_first_question_button_exit
             // 
@@ -70,9 +69,9 @@
             "Автоматизированная Система Учета Продукции",
             "Автоматическая Система Управления Персоналом",
             "Автоматизированная Система Управления Производством"});
-            this.Sem2_Lab4_first_question_button_choose_answer.Location = new System.Drawing.Point(422, 405);
+            this.Sem2_Lab4_first_question_button_choose_answer.Location = new System.Drawing.Point(287, 405);
             this.Sem2_Lab4_first_question_button_choose_answer.Name = "Sem2_Lab4_first_question_button_choose_answer";
-            this.Sem2_Lab4_first_question_button_choose_answer.Size = new System.Drawing.Size(360, 29);
+            this.Sem2_Lab4_first_question_button_choose_answer.Size = new System.Drawing.Size(625, 29);
             this.Sem2_Lab4_first_question_button_choose_answer.TabIndex = 19;
             // 
             // Sem2_Lab4_first_question_text
@@ -91,7 +90,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 761);
-            this.Controls.Add(Sem2_Lab4_first_question_button_answer);
+            this.Controls.Add(this.Sem2_Lab4_first_question_button_answer);
             this.Controls.Add(this.Sem2_Lab4_first_question_text);
             this.Controls.Add(this.Sem2_Lab4_first_question_button_choose_answer);
             this.Controls.Add(this.Sem2_Lab4_first_question_button_exit);
@@ -108,5 +107,6 @@
         private System.Windows.Forms.Button Sem2_Lab4_first_question_button_exit;
         private System.Windows.Forms.ComboBox Sem2_Lab4_first_question_button_choose_answer;
         private System.Windows.Forms.Label Sem2_Lab4_first_question_text;
+        private System.Windows.Forms.Button Sem2_Lab4_first_question_button_answer;
     }
 }

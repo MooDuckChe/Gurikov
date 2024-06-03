@@ -10,15 +10,6 @@ using System.Windows.Forms;
 using Dll_lab;
 using Second_Semestr_Dll;
 using Microsoft.VisualBasic;
-using Excel = Microsoft.Office.Interop.Excel;
-using Word = Microsoft.Office.Interop.Word;
-using Microsoft.Office.Interop.Excel;
-
-using System.Security.Cryptography.X509Certificates;
-using System.IO;
-using System.Diagnostics;
-using Microsoft.Office.Interop.Word;
-
 
 namespace Лабораторная_работа
 {
@@ -33,129 +24,53 @@ namespace Лабораторная_работа
         private void Make_result_Sem2_lab3_Click(object sender, EventArgs e)
         {
             
-            Lab2_Sem3_Main_DGV.ColumnCount = 0;
-
             string length_text = Interaction.InputBox("Введите количество элементов массива для генерации", "Размер массива", "15"); // Количество
-            int length = Convert.ToInt32(length_text);
+            if (length_text == "") return;
+            if (!int.TryParse(length_text, out int length)) { MessageBox.Show("Неверный формат данных. Ошибка."); return; }
 
-            string min_text = Interaction.InputBox("Нижняя граница генерации", "Минимальное значение", "-20");
-            int min = Convert.ToInt32(min_text);
+            string min_text = Interaction.InputBox("Нижняя граница генерации", "Минимальное значение", "-10");
+            if (min_text == "") return;
+            if (!int.TryParse(min_text, out int min)) { MessageBox.Show("Неверный формат данных. Ошибка."); return; }
+
+            string max_text = Interaction.InputBox("Верхняя граница генерации", "Максимальное значение", "60");
+            if (max_text == "") return;
+            if (!int.TryParse(max_text, out int max)) { MessageBox.Show("Неверный формат данных. Ошибка."); return; }
             
-            string max_text = Interaction.InputBox("Верхняя граница генерации", "Максимальное значение", "40");
-            int max = Convert.ToInt32(max_text);
+            // Если ввели максимальное число меньше чем меньшее
+            if (max < min) { MessageBox.Show("Верхняя граница генерации чисел должна быть больше нижней. Программа остановлена"); return; }
 
             int[] mas = new int[length];
 
+            // Заполняем массив
             SecSem_Dll.Enter_massiv(mas, length, min, max);
+            // Вывод исходного массива
             SecSem_Dll.Output_massiv(mas, length, Lab2_Sem3_Main_DGV);
 
-            double geometric = 1.0;
-            double count = 0;
-            for (int i = 0; i < mas.Length; i++)
-            {
-                if (mas[i] % 2 == 0)
-                {
-                    geometric *= mas[i];
-                    count++;
-                }
-            }
-            // (x1*x2*x3*x4*x5) ^ (1/5);
-            double result = Math.Pow(geometric, (1 / count));
-
-
-            // Четные, среднее геометрическое, вывести числа больше геом четных
-            SecSem_Dll.Sem2_Lab3_Calculate(result, mas, out int k, out int[] output);
-
-            MessageBox.Show("Найдено: " + k.ToString() + " элементов", "Результат", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
-            SecSem_Dll.Output_massiv(output, k, Lab2_Sem3_Resh_DGV);
+            //Вычисление среднего геометрического
+            SecSem_Dll.Sem2_Lab3_Calc_Geometric(mas, out double result);
+            //Посчитать сколько чисел подходят под условие
+            SecSem_Dll.Sem2_Lab3_Count_Condition(mas, result, out int index);
+            // Расчет и вывод массива под условие
+            SecSem_Dll.Sem2_Lab3_Calculate(mas, result, index, out int[] output);
+            // Вывод для пользователя
+            MessageBox.Show("Найдено: " + index.ToString() + " элементов", "Результат", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Вывод результата на вторую таблицу
+            SecSem_Dll.Output_massiv(output, index, Lab2_Sem3_Resh_DGV);
 
             array = mas; // Открываем массив для других функций
             array2 = output;
         }
         private void Sem2_Lab3_Save_Txt_Click(object sender, EventArgs e)
         {
-            StreamWriter streamWriter = File.CreateText("Массивы.txt");
-            streamWriter.WriteLine("Исходный массив:");
-            for (int i = 0; i < array.Length; i++)
-            {
-                streamWriter.WriteLine(array[i].ToString());
-            }
-            streamWriter.WriteLine("Конечный массив:");
-            for (int i = 0; i < array2.Length; i++)
-            {
-                streamWriter.WriteLine(array2[i].ToString());
-            }
-
-            streamWriter.Close();
-            Process.Start("Массивы.txt");
+            SecSem_Dll.Sem2_Lab3_Save_Txt(array, array2);
         }
-
-        private void Sem2_Lab3_Save_Word_Click(object sender, EventArgs e)
-        {
-            Word.Application word = new Word.Application();
-            Word.Document doc = word.Documents.Add();
-            Word.Range range = doc.Range();
-
-
-            range.Text = "Исходный массив:\n";
-            for (int i = 0; i < array.Length; i++)
-            {
-                range.Text += "[" + i + "] " + array[i].ToString() + "\n";
-            }
-
-            range.Text += "\nКонечный массив:\n";
-            for (int i = 0; i < array2.Length; i++)
-            {
-                range.Text += "[" + i + "] " + array2[i].ToString() + "\n";
-            }
-
-            word.Visible = true;
-        }
-
         private void Sem2_Lab3_Save_Excel_Click(object sender, EventArgs e)
         {
-            Excel.Application excel = new Excel.Application();
-            Excel.Workbook WB = excel.Workbooks.Add();
-            Excel.Worksheet ws = WB.Worksheets[1];
-            ws.Name = "Исходный массив";
-            for (int i = 0; i < array.Length; i++)
-            {
-                ws.Cells[2, i + 1] = "[" + i + "]";
-                ws.Cells[3, i + 1] = array[i].ToString();
-            }
-            Excel.Worksheet ws2 = WB.Worksheets.Add();
-            ws2.Name = "Конечный массив";
-            for (int i = 0; i < array2.Length; i++)
-            {
-                ws2.Cells[2, i + 1] = "[" + i + "]";
-                ws2.Cells[3, i + 1] = array2[i].ToString();
-            }
-            excel.Visible = true;
-            excel.UserControl = true;
+            SecSem_Dll.Sem2_Lab3_Save_Excel(array, array2);
         }
-
-        private static void ZapisWord(int[,] mas, int[] rezmas, int n, int m, int g)
+        private void Sem2_Lab3_Save_Word_Click(object sender, EventArgs e)
         {
-            Microsoft.Office.Interop.Word.Application app = new Microsoft.Office.Interop.Word.Application();
-            var inf = Type.Missing;
-            string str;
-            var Doc = app.Documents.Add(inf, inf, inf, inf);
-            app.Selection.TypeText("Исходный массив");
-            object t1 = WdDefaultTableBehavior.wdWord9TableBehavior;
-            object t2 = WdAutoFitBehavior.wdAutoFitContent;
-            Microsoft.Office.Interop.Word.Table tbl = app.ActiveDocument.Tables.Add(app.Selection.Range, n + 1, m + 1, t1, t2);
-            tbl.Cell(1, 1).Range.InsertAfter($"[{n}][{m}]");
-            for (int i = 0; i < n; i++)
-                tbl.Cell(i + 2, 1).Range.InsertAfter("[" + Convert.ToString(i) + "]");
-            for (int j = 0; j < m; j++)
-                tbl.Cell(1, j + 2).Range.InsertAfter("[" + Convert.ToString(j) + "]");
-            for (int i = 0; i < n; i++)
-                for (int j = 0; j < m; j++)
-                {
-                    str = string.Format("{0}", mas[i, j]);
-                    tbl.Cell(i + 2, j + 2).Range.InsertAfter(str);
-                }
+            SecSem_Dll.Sem2_Lab3_Save_Word(array, array2);
         }
         private void Sem2_Lab3_exit_Click(object sender, EventArgs e)
         {

@@ -17,6 +17,9 @@ namespace Лабораторная_работа
         public Sem2_CalcLab4()
         {
             InitializeComponent();
+
+            Sem2_Lab4_first_question_button_answer.DialogResult = DialogResult.OK;
+            Sem2_Lab4_first_question_button_exit.DialogResult = DialogResult.Cancel;
         }
 
         private void Sem2_Lab4_exit_Click(object sender, EventArgs e)
@@ -30,6 +33,8 @@ namespace Лабораторная_работа
                 Answer_Base.True_False[Answer_Base.k++] = true;
             else
                 Answer_Base.True_False[Answer_Base.k++] = false;
+
+            this.Close();
         }
     }
 }

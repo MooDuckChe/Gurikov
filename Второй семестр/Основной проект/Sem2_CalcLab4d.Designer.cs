@@ -113,6 +113,7 @@
             this.Sem2_Lab4_five_question_button_exit.TabIndex = 34;
             this.Sem2_Lab4_five_question_button_exit.Text = "Выход";
             this.Sem2_Lab4_five_question_button_exit.UseVisualStyleBackColor = true;
+            this.Sem2_Lab4_five_question_button_exit.Click += new System.EventHandler(this.Sem2_Lab4_five_question_button_exit_Click);
             // 
             // Sem2_Lab4_five_question_button_answer
             // 

@@ -15,4 +15,4 @@ C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_D
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.CoreCompileInputs.cache
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.dll
 C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.pdb
-C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_Semestr_Dll.csproj.CopyComplete
+C:\Users\MooDuckChe\Desktop\Gurikov\Второй семестр\Second_Semestr_Dll\obj\Debug\Second_S.23B20FD4.Up2Date
