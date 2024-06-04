@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-06-03T23:44:13.120Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="-fyiday9QKtLzp4Ja5en" version="24.4.13" type="device">
+  <diagram name="Страница — 1" id="YL3ycyQHYRW2ur75e_pu">
+    <mxGraphModel dx="523" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-1" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" source="-TCs8RGYB9ik3pf1OUnd-3" parent="1" target="-TCs8RGYB9ik3pf1OUnd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="45" as="sourcePoint" />
+            <mxPoint x="530" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-3" value="    Входные данные:&#xa;     DataGridView Table, int length" style="strokeWidth=2;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;recursiveResize=1;autosize=0;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="5" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-TCs8RGYB9ik3pf1OUnd-6" target="-TCs8RGYB9ik3pf1OUnd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="190" as="sourcePoint" />
+            <mxPoint x="470" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-6" value="i = 0; length" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="60" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-7" value="i++" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="364" y="130" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-8" value="Table.Rows[i].Cells[i].Selected = true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="100" width="226" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-TCs8RGYB9ik3pf1OUnd-8" target="-TCs8RGYB9ik3pf1OUnd-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-TCs8RGYB9ik3pf1OUnd-7" target="-TCs8RGYB9ik3pf1OUnd-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-18" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="354" y="170" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-TCs8RGYB9ik3pf1OUnd-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-TCs8RGYB9ik3pf1OUnd-7" target="-TCs8RGYB9ik3pf1OUnd-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="290" as="sourcePoint" />
+            <mxPoint x="500" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

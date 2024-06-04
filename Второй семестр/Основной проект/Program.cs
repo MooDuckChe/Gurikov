@@ -19,7 +19,7 @@ namespace Лабораторная_работа__2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sem2_CalcLab5());
+            Application.Run(new MainWindow());
         }
     }
 }

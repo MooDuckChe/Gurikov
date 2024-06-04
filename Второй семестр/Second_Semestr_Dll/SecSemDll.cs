@@ -128,13 +128,192 @@ namespace Second_Semestr_Dll
 
             word.Visible = true;
         }
-        public static void Sem2_Lab5_Fill_Array_RND_Num(int[,] mas, int length, int min, int max)
+
+        public static void SelectMainDiagonal(DataGridView Table, int length)
         {
+            for (int i = 0; i < length + 1; i++)
+                Table.Rows[i].Cells[i].Selected = true;
+        }
+        public static void Sem2_Lab5_Select_Replaced_Nums(int[,] main, int num, DataGridView Table)
+        {
+            int lenght_arr = Get_Length(main);
+
+            for (int i = 0; i < lenght_arr; i++)
+                for (int j = 0; j < lenght_arr; j++)
+                    if (main[i, j] > num)    
+                        Table.Rows[i + 1].Cells[j + 1].Selected = true;
+        }
+        public static void Sem2_Lab5_Off_selected_cells(int length, DataGridView TableMain, int length2, DataGridView TableTwink)
+        {
+            for (int i = 0; i < length; i++)
+                for (int j = 0; j < length; j++)
+                    TableMain.Rows[i].Cells[j].Selected = false;
+
+            for (int i = 0; i < 2; i++)
+                for (int j = 0; j < length2; j++)
+                    TableTwink.Rows[i].Cells[j].Selected = false;
+        }
+
+        public static void Sem2_Lab5_Fill_Array_RND_Num(int[,] mas, int min, int max)
+        {
+            int length = Get_Length(mas);
             Random rnd = new Random();
             for (int i = 0; i < length; i++)
                 for (int j = 0; j < length; j++)
-                    mas[i,j] = rnd.Next(min, max);
+                    mas[i, j] = rnd.Next(min, max);
         }
+        public static void Sem2_Lab5_Fill_corner_DGV(int length, DataGridView Table)
+        {
+            length += 1;
+            Table.ColumnCount = length;
+            Table.RowCount = length;
+
+            Table.Rows[0].Cells[0].Value = $"[{length - 1}][{length - 1}]";
+
+            for (int i = 1; i < length; i++)
+                Table.Rows[0].Cells[i].Value = $"[{i - 1}]";
+
+            for (int i = 1; i < length; i++)
+                Table.Rows[i].Cells[0].Value = $"[{i - 1}]";
+        }
+        public static void Sem2_Lab5_Enter_Mas_in_DGV(int[,] mas, DataGridView Table)
+        {
+            int length_for_table = Get_Length(mas) + 1;
+
+            for (int i = 1; i < length_for_table; i++)
+                for (int j = 1; j < length_for_table; j++)
+                    Table.Rows[i].Cells[j].Value = mas[i - 1, j - 1];
+
+            Table.Rows[0].Cells[0].Selected = false;
+        }
+        public static void Sem2_Lab5_Enter_Mas_in_DGV(int[] mas, DataGridView Table)
+        {
+            Table.RowCount = 2;
+            Table.ColumnCount = mas.Length;
+            for (int i = 0; i < mas.Length; i++) 
+                Table.Rows[0].Cells[i].Value = "[" + i.ToString() + "]";
+
+            for (int i = 0; i < mas.Length; i++)
+                    Table.Rows[1].Cells[i].Value = mas[i];
+
+            Table.Rows[0].Cells[0].Selected = false;
+        }
+        public static int[] Sem2_Lab5_Count_Condition(int[,] main)
+        {
+            int[] ret = new int[2]; 
+            int lenght = Get_Length(main);
+            int count_condition = 0;
+            for (int i = 0; i < lenght; i++)
+                for (int j = 0 + i;j < lenght; j++)
+                    if (main[i,j] % 3 == 0 && i != j)
+                        count_condition++;
+
+            int array_size = 0;
+            for (int i = 0; i < lenght; i++)
+                for (int j = 0; j < lenght; j++)
+                    if (main[i, j] > count_condition)
+                        array_size++;
+            // Чисел которые делятся на 3
+            ret[0] = count_condition;
+
+            ret[1] = array_size;
+
+            return ret;
+        }
+        public static int[] Sem2_Lab5_Usually(int arr_size, int[,] main, int compare)
+        {
+            int[] returns = new int[arr_size];
+            int lenght = Get_Length(main);
+            int k = 0;
+            for (int i = 0; i < lenght; i++)
+                for (int j = 0; j < lenght; j++)
+                    if (main[i, j] > compare)
+                        returns[k++] = main[i, j];
+
+            return returns;
+        }
+        public static int Get_Length(int[,] mas)
+        {
+            int result = (int)Math.Sqrt(mas.Length);
+            return result;
+        }
+        public static void Sem2_Lab5_Save_TXT(int[,] array, int[] array2)
+        {
+            
+            int length = (int)Math.Sqrt(array.Length);
+            StreamWriter streamWriter = File.CreateText("Массивы.txt");
+            streamWriter.WriteLine("Исходный массив:");
+            for (int i = 0; i < length; i++)
+            {
+                string strAdd = "";
+                for (int j = 0; j < length; j++)
+                    strAdd += "[" + array[i, j].ToString() + "]" + ' ';
+
+                streamWriter.WriteLine(strAdd);
+            }
+            streamWriter.WriteLine("Конечный массив:");
+            string strAdd2 = "";
+            for (int i = 0; i < array2.Length; i++)
+            {
+                strAdd2 += "[" + array2[i].ToString() + "]" + ' ';
+            }
+            streamWriter.WriteLine(strAdd2);
+            streamWriter.Close();
+            Process.Start("Массивы.txt");
+        }
+        public static void Sem2_Lab5_Save_Word(int[,] main, int[] twin)
+        {
+            Word.Application word = new Word.Application();
+            Word.Document doc = word.Documents.Add();
+            Word.Range range = doc.Range();
+
+            Word.Table table = doc.Tables.Add(range, main.GetLength(0), main.GetLength(1));
+            for (int i = 0; i < main.GetLength(0); i++)
+            {
+                for (int j = 0; j < main.GetLength(1); j++)
+                {
+                    table.Cell(i + 1, j + 1).Range.Text = main[i, j].ToString();
+                }
+            }
+            word.Visible = true;
+        }
+        public static void Sem2_Lab5_Save_Excel(int[,] main, int[] twin)
+        {
+            int lenght = Get_Length(main);
+            Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel.Workbook workBook;
+            Microsoft.Office.Interop.Excel.Worksheet workSheet1, workSheet2;
+            workBook = excelApp.Workbooks.Add();
+            workSheet1 = (Microsoft.Office.Interop.Excel.Worksheet)workBook.Worksheets.get_Item(1);
+            workSheet1.Name = "Исходный массив";
+            excelApp.Cells[1, 1] = "Исходный массив";
+            for (int i = 0; i < lenght; i++)
+                for (int j = 0; j < lenght; j++)
+                {
+                    excelApp.Cells[i + 3, 2] = $"[{i}]";
+                    excelApp.Cells[2, j + 3] = $"[{j}]";
+                    excelApp.Cells[i + 3, j + 3] = main[i, j];
+                }
+
+            workSheet2 = workBook.Worksheets.Add();
+            int k = 0;
+            workSheet2.Name = "Результирующий массив";
+            excelApp.Cells[1, 1] = "Результирующий массив";
+            for (int i = 0; i < twin.Length; i++)
+            {
+                workSheet2.Cells[3, i+2] = "[" + (i+1) + "]";
+                workSheet2.Cells[4, i+2] = twin[i];
+            }
+                
+
+            excelApp.Visible = true;
+            excelApp.UserControl = true;
+        }
+    }
+}
+
+/*
+ 
         public static void Sem2_Lab5_Enter_Mas_in_DGV(int[,] mas, int length, DataGridView Table)
         {
             for (int i = 1; i < length; i++)
@@ -176,7 +355,7 @@ namespace Second_Semestr_Dll
                 {
                     if (main[i, j] % 3 == 0 && i != j)
                         coordinats[count_condition++] = index;
-                    index++;
+                    index++; 
                 }
             }
             int k = 0;
@@ -275,66 +454,5 @@ namespace Second_Semestr_Dll
                     TableMain.Rows[i].Cells[j].Selected = false;
                 }
         }
-        public static int[] Sem2_Lab5_Usually(int count_condition, int length, int[,] main)
-        {
-            int k = 0;
-            int[] new_main = new int[main.Length];
-            for (int i = 0; i < length; i++)
-            {
-                for (int j = 0; j < length; j++)
-                {
-                    if (main[i,j] > count_condition)
-                    {
-                        //MessageBox.Show(main[i, j].ToString() + '>' + count_condition);
-                        new_main[k++] = main[i,j];
-                    }
-                }
-            }
-            return new_main;
-        }
-        public static void Sem2_Lab5_Save_TXT(int[,] array, int[] array2)
-        {
-            
-            int length = (int)Math.Sqrt(array.Length);
-            StreamWriter streamWriter = File.CreateText("Массивы.txt");
-            streamWriter.WriteLine("Исходный массив:");
-            for (int i = 0; i < length; i++)
-            {
-                string strAdd = "";
-                for (int j = 0; j < length; j++)
-                    strAdd += array[i, j].ToString() + ' ';
-
-                streamWriter.WriteLine(strAdd);
-            }
-            streamWriter.WriteLine("Конечный массив:");
-            string strAdd2 = "";
-            for (int i = 0; i < array2.Length; i++)
-            {
-                strAdd2 += array2[i].ToString() + ' ';
-            }
-            streamWriter.WriteLine(strAdd2);
-            streamWriter.Close();
-            Process.Start("Массивы.txt");
-        }
-        public static void Sem2_Lab5_Save_Word(int[] array)
-        {
-
-            //Word.Application word = new Word.Application();
-            //Word.Document doc = word.Documents.Add();
-            //Word.Range range = doc.Range();
-            //Word.Table table = doc.Tables.Add(range, array.GetLength(0), array.GetLength(1));
-            //for (int i = 0; i < array.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < array.GetLength(1); j++)
-            //    {
-            //        table.Cell(i + 1, j + 1).Range.Text = array[j, i].ToString();
-            //    }
-            //}
-            //word.Visible = true;
-        }
-        public static void Sem2_Lab5_Save_Excel()
-        {
-
-        }
-    }
-}
+ 
+ */
