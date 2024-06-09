@@ -29,7 +29,7 @@ namespace Лабораторная_работа
 
         private void Sem2_Lab4_fIrst_question_button_answer_Click(object sender, EventArgs e)
         {
-            if (Sem2_Lab4_first_question_button_choose_answer.SelectedItem != null && Sem2_Lab4_first_question_button_choose_answer.SelectedItem.ToString() == "Автоматизированная Система Управления Производством")
+            if (Sem2_Lab4_first_question_button_choose_answer.SelectedItem != null && Sem2_Lab4_first_question_button_choose_answer.SelectedItem.ToString().ToLower() == "автоматизированная система управления производством")
                 Answer_Base.True_False[Answer_Base.k++] = true;
             else
                 Answer_Base.True_False[Answer_Base.k++] = false;

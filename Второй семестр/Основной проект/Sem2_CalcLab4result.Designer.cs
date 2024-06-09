@@ -28,15 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.Sem2_Lab3_Result_Label = new System.Windows.Forms.Label();
             this.Sem2_Lab3_dataGridView_Result = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sem2_Lab4_five_question_button_exit = new System.Windows.Forms.Button();
+            this.Sem2_Lab4_Save_Word_button = new System.Windows.Forms.Button();
+            this.Sem2_Lab4_Save_TXT_button = new System.Windows.Forms.Button();
+            this.Sem2_Lab4_Save_Excel_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Sem2_Lab3_dataGridView_Result)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,43 +61,43 @@
             this.Sem2_Lab3_dataGridView_Result.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Sem2_Lab3_dataGridView_Result.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Sem2_Lab3_dataGridView_Result.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Sem2_Lab3_dataGridView_Result.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Sem2_Lab3_dataGridView_Result.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.Sem2_Lab3_dataGridView_Result.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Sem2_Lab3_dataGridView_Result.ColumnHeadersVisible = false;
             this.Sem2_Lab3_dataGridView_Result.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Sem2_Lab3_dataGridView_Result.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Sem2_Lab3_dataGridView_Result.DefaultCellStyle = dataGridViewCellStyle14;
             this.Sem2_Lab3_dataGridView_Result.Location = new System.Drawing.Point(295, 401);
             this.Sem2_Lab3_dataGridView_Result.Name = "Sem2_Lab3_dataGridView_Result";
             this.Sem2_Lab3_dataGridView_Result.ReadOnly = true;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Sem2_Lab3_dataGridView_Result.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Sem2_Lab3_dataGridView_Result.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.Sem2_Lab3_dataGridView_Result.RowHeadersVisible = false;
             this.Sem2_Lab3_dataGridView_Result.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Sem2_Lab3_dataGridView_Result.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Sem2_Lab3_dataGridView_Result.RowsDefaultCellStyle = dataGridViewCellStyle16;
             this.Sem2_Lab3_dataGridView_Result.Size = new System.Drawing.Size(638, 55);
             this.Sem2_Lab3_dataGridView_Result.TabIndex = 31;
             // 
@@ -121,11 +124,47 @@
             this.Sem2_Lab4_five_question_button_exit.UseVisualStyleBackColor = true;
             this.Sem2_Lab4_five_question_button_exit.Click += new System.EventHandler(this.Sem2_Lab4_five_question_button_exit_Click);
             // 
+            // Sem2_Lab4_Save_Word_button
+            // 
+            this.Sem2_Lab4_Save_Word_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab4_Save_Word_button.Location = new System.Drawing.Point(497, 462);
+            this.Sem2_Lab4_Save_Word_button.Name = "Sem2_Lab4_Save_Word_button";
+            this.Sem2_Lab4_Save_Word_button.Size = new System.Drawing.Size(220, 75);
+            this.Sem2_Lab4_Save_Word_button.TabIndex = 38;
+            this.Sem2_Lab4_Save_Word_button.Text = "Вывести результаты в Word";
+            this.Sem2_Lab4_Save_Word_button.UseVisualStyleBackColor = true;
+            this.Sem2_Lab4_Save_Word_button.Click += new System.EventHandler(this.Sem2_Lab4_Save_Word_button_Click);
+            // 
+            // Sem2_Lab4_Save_TXT_button
+            // 
+            this.Sem2_Lab4_Save_TXT_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab4_Save_TXT_button.Location = new System.Drawing.Point(271, 462);
+            this.Sem2_Lab4_Save_TXT_button.Name = "Sem2_Lab4_Save_TXT_button";
+            this.Sem2_Lab4_Save_TXT_button.Size = new System.Drawing.Size(220, 75);
+            this.Sem2_Lab4_Save_TXT_button.TabIndex = 37;
+            this.Sem2_Lab4_Save_TXT_button.Text = "Вывести и сохранить результаты в блокнот";
+            this.Sem2_Lab4_Save_TXT_button.UseVisualStyleBackColor = true;
+            this.Sem2_Lab4_Save_TXT_button.Click += new System.EventHandler(this.Sem2_Lab4_Save_TXT_button_Click);
+            // 
+            // Sem2_Lab4_Save_Excel_button
+            // 
+            this.Sem2_Lab4_Save_Excel_button.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sem2_Lab4_Save_Excel_button.Location = new System.Drawing.Point(723, 462);
+            this.Sem2_Lab4_Save_Excel_button.Name = "Sem2_Lab4_Save_Excel_button";
+            this.Sem2_Lab4_Save_Excel_button.Size = new System.Drawing.Size(220, 75);
+            this.Sem2_Lab4_Save_Excel_button.TabIndex = 36;
+            this.Sem2_Lab4_Save_Excel_button.Text = "Вывести результаты в Excel";
+            this.Sem2_Lab4_Save_Excel_button.UseVisualStyleBackColor = true;
+            this.Sem2_Lab4_Save_Excel_button.Click += new System.EventHandler(this.Sem2_Lab4_Save_Excel_button_Click);
+            // 
             // Sem2_CalcLab4result
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.Sem2_Lab4_Save_Word_button);
+            this.Controls.Add(this.Sem2_Lab4_Save_TXT_button);
+            this.Controls.Add(this.Sem2_Lab4_Save_Excel_button);
             this.Controls.Add(this.Sem2_Lab4_five_question_button_exit);
             this.Controls.Add(this.Sem2_Lab3_dataGridView_Result);
             this.Controls.Add(this.Sem2_Lab3_Result_Label);
@@ -145,5 +184,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.Button Sem2_Lab4_five_question_button_exit;
+        private System.Windows.Forms.Button Sem2_Lab4_Save_Word_button;
+        private System.Windows.Forms.Button Sem2_Lab4_Save_TXT_button;
+        private System.Windows.Forms.Button Sem2_Lab4_Save_Excel_button;
     }
 }

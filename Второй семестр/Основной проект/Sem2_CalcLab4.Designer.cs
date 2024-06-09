@@ -59,10 +59,7 @@
             // Sem2_Lab4_first_question_button_choose_answer
             // 
             this.Sem2_Lab4_first_question_button_choose_answer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sem2_Lab4_first_question_button_choose_answer.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.Sem2_Lab4_first_question_button_choose_answer.Font = new System.Drawing.Font("Times New Roman", 14.25F);
-            this.Sem2_Lab4_first_question_button_choose_answer.FormattingEnabled = true;
-            this.Sem2_Lab4_first_question_button_choose_answer.IntegralHeight = false;
             this.Sem2_Lab4_first_question_button_choose_answer.Items.AddRange(new object[] {
             "Архитектурная Система Управления Пространством",
             "Авиационная Система Управления Полетами",

@@ -59,7 +59,7 @@
             this.Sem2_Lab4_second_question_button_answer1.Location = new System.Drawing.Point(290, 376);
             this.Sem2_Lab4_second_question_button_answer1.Name = "Sem2_Lab4_second_question_button_answer1";
             this.Sem2_Lab4_second_question_button_answer1.Size = new System.Drawing.Size(623, 23);
-            this.Sem2_Lab4_second_question_button_answer1.TabIndex = 1;
+            this.Sem2_Lab4_second_question_button_answer1.TabIndex = 0;
             this.Sem2_Lab4_second_question_button_answer1.TabStop = true;
             this.Sem2_Lab4_second_question_button_answer1.Text = "Недооценка сложности и стоимости проекта, нехватка квалифицированного персонала";
             this.Sem2_Lab4_second_question_button_answer1.UseVisualStyleBackColor = true;
