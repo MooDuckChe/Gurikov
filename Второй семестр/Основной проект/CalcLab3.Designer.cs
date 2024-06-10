@@ -68,6 +68,7 @@
             this.lab3_result_y.Size = new System.Drawing.Size(220, 20);
             this.lab3_result_y.TabIndex = 31;
             this.lab3_result_y.TabStop = false;
+            this.lab3_result_y.TextChanged += new System.EventHandler(this.lab3_result_y_TextChanged);
             // 
             // lab3_result_x
             // 
@@ -78,6 +79,7 @@
             this.lab3_result_x.Size = new System.Drawing.Size(220, 20);
             this.lab3_result_x.TabIndex = 30;
             this.lab3_result_x.TabStop = false;
+            this.lab3_result_x.TextChanged += new System.EventHandler(this.lab3_result_x_TextChanged);
             // 
             // Text_res_y_lab3
             // 
@@ -88,6 +90,7 @@
             this.Text_res_y_lab3.Size = new System.Drawing.Size(121, 13);
             this.Text_res_y_lab3.TabIndex = 29;
             this.Text_res_y_lab3.Text = "Точка пересечения Y: ";
+            this.Text_res_y_lab3.Click += new System.EventHandler(this.Text_res_y_lab3_Click);
             // 
             // Text_res_x_lab3
             // 
@@ -98,6 +101,7 @@
             this.Text_res_x_lab3.Size = new System.Drawing.Size(121, 13);
             this.Text_res_x_lab3.TabIndex = 28;
             this.Text_res_x_lab3.Text = "Точка пересечения X: ";
+            this.Text_res_x_lab3.Click += new System.EventHandler(this.Text_res_x_lab3_Click);
             // 
             // make_result_lab3
             // 
@@ -117,6 +121,7 @@
             this.Input_c1_lab3.Name = "Input_c1_lab3";
             this.Input_c1_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_c1_lab3.TabIndex = 24;
+            this.Input_c1_lab3.TextChanged += new System.EventHandler(this.Input_c1_lab3_TextChanged);
             this.Input_c1_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_c1_lab3_KeyPress);
             // 
             // Input_b2_lab3
@@ -126,6 +131,7 @@
             this.Input_b2_lab3.Name = "Input_b2_lab3";
             this.Input_b2_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_b2_lab3.TabIndex = 26;
+            this.Input_b2_lab3.TextChanged += new System.EventHandler(this.Input_b2_lab3_TextChanged);
             this.Input_b2_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_b2_lab3_KeyPress);
             // 
             // Input_a2_lab3
@@ -135,6 +141,7 @@
             this.Input_a2_lab3.Name = "Input_a2_lab3";
             this.Input_a2_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_a2_lab3.TabIndex = 25;
+            this.Input_a2_lab3.TextChanged += new System.EventHandler(this.Input_a2_lab3_TextChanged);
             this.Input_a2_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_a2_lab3_KeyPress);
             // 
             // Input_b1_lab3
@@ -144,6 +151,7 @@
             this.Input_b1_lab3.Name = "Input_b1_lab3";
             this.Input_b1_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_b1_lab3.TabIndex = 23;
+            this.Input_b1_lab3.TextChanged += new System.EventHandler(this.Input_b1_lab3_TextChanged);
             this.Input_b1_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_b1_lab3_KeyPress);
             // 
             // Input_a1_lab3
@@ -153,6 +161,7 @@
             this.Input_a1_lab3.Name = "Input_a1_lab3";
             this.Input_a1_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_a1_lab3.TabIndex = 22;
+            this.Input_a1_lab3.TextChanged += new System.EventHandler(this.Input_a1_lab3_TextChanged);
             this.Input_a1_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_a1_lab3_KeyPress);
             // 
             // Text_Input_b2_lab3
@@ -164,6 +173,7 @@
             this.Text_Input_b2_lab3.Size = new System.Drawing.Size(70, 13);
             this.Text_Input_b2_lab3.TabIndex = 21;
             this.Text_Input_b2_lab3.Text = "Введите b2: ";
+            this.Text_Input_b2_lab3.Click += new System.EventHandler(this.Text_Input_b2_lab3_Click);
             // 
             // Text_Input_c1_lab3
             // 
@@ -174,6 +184,7 @@
             this.Text_Input_c1_lab3.Size = new System.Drawing.Size(67, 13);
             this.Text_Input_c1_lab3.TabIndex = 20;
             this.Text_Input_c1_lab3.Text = "Введите c1:";
+            this.Text_Input_c1_lab3.Click += new System.EventHandler(this.Text_Input_c1_lab3_Click);
             // 
             // Text_Input_b1_lab3
             // 
@@ -184,6 +195,7 @@
             this.Text_Input_b1_lab3.Size = new System.Drawing.Size(67, 13);
             this.Text_Input_b1_lab3.TabIndex = 19;
             this.Text_Input_b1_lab3.Text = "Введите b1:";
+            this.Text_Input_b1_lab3.Click += new System.EventHandler(this.Text_Input_b1_lab3_Click);
             // 
             // Text_Input_a2_lab3
             // 
@@ -194,6 +206,7 @@
             this.Text_Input_a2_lab3.Size = new System.Drawing.Size(70, 13);
             this.Text_Input_a2_lab3.TabIndex = 18;
             this.Text_Input_a2_lab3.Text = "Введите a2: ";
+            this.Text_Input_a2_lab3.Click += new System.EventHandler(this.Text_Input_a2_lab3_Click);
             // 
             // Text_Input_a1_lab3
             // 
@@ -204,6 +217,7 @@
             this.Text_Input_a1_lab3.Size = new System.Drawing.Size(70, 13);
             this.Text_Input_a1_lab3.TabIndex = 17;
             this.Text_Input_a1_lab3.Text = "Введите a1: ";
+            this.Text_Input_a1_lab3.Click += new System.EventHandler(this.Text_Input_a1_lab3_Click);
             // 
             // Input_c2_lab3
             // 
@@ -212,6 +226,7 @@
             this.Input_c2_lab3.Name = "Input_c2_lab3";
             this.Input_c2_lab3.Size = new System.Drawing.Size(200, 20);
             this.Input_c2_lab3.TabIndex = 27;
+            this.Input_c2_lab3.TextChanged += new System.EventHandler(this.Input_c2_lab3_TextChanged);
             this.Input_c2_lab3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Input_c2_lab3_KeyPress);
             // 
             // Text_Input_c2_lab3
@@ -223,6 +238,7 @@
             this.Text_Input_c2_lab3.Size = new System.Drawing.Size(67, 13);
             this.Text_Input_c2_lab3.TabIndex = 33;
             this.Text_Input_c2_lab3.Text = "Введите c2:";
+            this.Text_Input_c2_lab3.Click += new System.EventHandler(this.Text_Input_c2_lab3_Click);
             // 
             // CalcLab3
             // 

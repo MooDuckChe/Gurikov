@@ -42,6 +42,7 @@ namespace Dll_lab
 
         public static double Input_user(TextBox textbox)
         {
+            if (textbox.Text == "") return 0;
             return Convert.ToDouble(textbox.Text);
         }
 

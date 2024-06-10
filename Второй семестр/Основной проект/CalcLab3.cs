@@ -22,6 +22,7 @@ namespace Лабораторная_работа__2
 
         private void Make_result_lab3_Click(object sender, EventArgs e)
         {
+            
             double a1 = Lab_dll.Input_user(Input_a1_lab3);
             double a2 = Lab_dll.Input_user(Input_a2_lab3);
             double b1 = Lab_dll.Input_user(Input_b1_lab3);
@@ -68,6 +69,86 @@ namespace Лабораторная_работа__2
         private void Lab3_exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Text_Input_c2_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab3_result_y_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lab3_result_x_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_res_y_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_res_x_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_c2_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_c1_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_b2_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_a2_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_b1_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Input_a1_lab3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Input_b2_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Input_c1_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Input_b1_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Input_a2_lab3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Text_Input_a1_lab3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
